@@ -1,0 +1,26 @@
+Til = Diretório Home (Pessoal)
+pwd
+-------------------------------
+cd / Raiz (Root)
+cd - voltar (1 vez)
+cd ~ Home
+cd ..
+-------------------------------
+ls
+ls -lh
+ls -lha
+-------------------------------
+mkdir senac
+mkdir -v tatuape
+-------------------------------
+echo SENAC Tatuapé
+echo SENAC Tatuapé > senac.txt
+touch tatuape.txt
+-------------------------------
+cat senac.txt
+cat -n senac.txt
+cat /etc/services
+head /etc/services
+head -n20 /etc/services
+tail /etc/services
+tail -n20 /etc/services
