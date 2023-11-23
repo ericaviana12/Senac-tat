@@ -8,11 +8,17 @@ pwd = Mostra o nome e caminho absoluto do diretório atual
 
 < = entrada - de qual local será localizada a informação
 
+| = Pipe - separa funções a serem trabalhadas na linha de comando
+
 Caminho absoluto = Caminho Absoluto é o caminho hierárquico que localiza um arquivo ou pasta em um sistema de arquivos a partir da raiz
 
 ----------
 
 cd = Entra em um diretório. Você precisa ter a permissão de execução para entrar no diretório
+
+Exemplo:
+
+cd Documentos = acessa o diretório “Documentos”
 
 
 cd ~  = Home - você retornará ao seu diretório de usuário
@@ -26,6 +32,11 @@ cd .. = voltar - sobe um diretório
 ----------
 
 ls = Lista os arquivos de um diretório
+
+Exemplo:
+
+Área de Trabalho'   Downloads   Modelos   Público
+Documentos          Imagens     Música    Vídeos
 
 
 -l    = Usa o formato longo para listagem de arquivos. Lista as permissões, data de modificação, donos, grupos, etc
@@ -106,3 +117,11 @@ Exemplos:
 
 tail /etc/services
 tail -n20 /etc/services
+
+----------
+
+rm = apagar diretórios e arquivos
+
+Exemplo:
+
+rm -Rfv */ = apaga todos os diretórios e arquivos do diretório “Documentos”
