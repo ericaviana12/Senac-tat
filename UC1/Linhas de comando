@@ -87,12 +87,18 @@ cat = Mostra o conteúdo de um arquivo binário ou texto
 
 -n = Mostra o número das linhas enquanto o conteúdo do arquivo é mostrado
 
-
 Exemplos:
+
 
 cat senac.txt
 cat -n senac.txt
 cat /etc/services
+
+cat > = cria um arquivo
+
+Exemplo:
+cat > tei.txt = cria o arquivo "tei.txt"
+
 
 ----------
 
