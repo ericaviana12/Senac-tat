@@ -2,7 +2,7 @@
 
 Til (~) = Diretório Home (Pessoal)
 
-pwd = Mostra o nome e caminho do diretório atual
+pwd = Mostra o nome e caminho absoluto do diretório atual
 
 > = saída - para qual local será inserida a informação
 
