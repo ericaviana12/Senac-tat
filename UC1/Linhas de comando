@@ -2,6 +2,8 @@
 
 Til (~) = Diretório Home (Pessoal)
 
+ctrl + c = destrava o Terminal e libera para escrever novos comandos
+
 pwd = Mostra o nome e caminho absoluto do diretório atual
 
 > = saída - para qual local será inserida a informação
