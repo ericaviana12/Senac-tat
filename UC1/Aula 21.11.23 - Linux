@@ -10,7 +10,7 @@ pwd = Mostra o nome e caminho do diretório atual
 
 Caminho absoluto = Caminho Absoluto é o caminho hierárquico que localiza um arquivo ou pasta em um sistema de arquivos a partir da raiz
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 cd = Entra em um diretório. Você precisa ter a permissão de execução para entrar no diretório
 
@@ -23,7 +23,7 @@ cd -  = desfazer (1 vez) - retornará ao diretório anteriormente acessado
 
 cd .. = voltar - sobe um diretório
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 ls = Lista os arquivos de um diretório
 
@@ -39,7 +39,7 @@ Os comandos acima podem ser utilizados separados ou juntos, por exemplo:
 ls -lh  = junção do l+h
 ls -lha = junção do l+h+a
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 mkdir = Cria um diretório no sistema. Um diretório é usado para armazenar arquivos de um determinado tipo. O diretório pode ser entendido como uma pasta onde você guarda seus papeis (arquivos)
 
@@ -55,7 +55,7 @@ Exemplo:
 
 mkdir -v tatuape = cria o diretório "tatuape" no local indicado e mostra uma mensagem para cada diretório criado
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 echo = Mostra mensagens. Este comando é útil na construção de scripts para mostrar mensagens na tela para o usuário acompanhar sua execução
 
@@ -64,13 +64,13 @@ echo SENAC Tatuapé = cria novos diretórios, com os nomes indicados - por estar
 
 echo SENAC Tatuapé > senac.txt = cria novo arquivo em formato txt no diretório informado
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 touch = Muda a data e hora que um arquivo foi criado. Também pode ser usado para criar arquivos vazios. Caso o touch seja usado com arquivos que não existam, por padrão ele criará estes arquivos.
 
 touch tatuape.txt = cria novo arquivo em formato txt
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 cat = Mostra o conteúdo de um arquivo binário ou texto
 
@@ -83,7 +83,7 @@ cat senac.txt
 cat -n senac.txt
 cat /etc/services
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 head = Mostra as linhas iniciais de um arquivo texto (padrão será das 10 primeiras linhas)
 
@@ -95,7 +95,7 @@ Exemplos:
 head /etc/services
 head -n20 /etc/services
 
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 tail = Mostra as linhas finais de um arquivo texto (padrão será das 10 últimas linhas)
 
