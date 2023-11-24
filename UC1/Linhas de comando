@@ -39,7 +39,7 @@ Caminho absoluto = Caminho Absoluto é o caminho hierárquico que localiza um ar
 
 .. = equivale ao voltar
 
-cd .. = sobe um diretório
+cd .. = retrocede um diretório
 
 touch .. = cria um diretório no diretório anterior ao local atual
 
