@@ -184,3 +184,21 @@ rm = apagar diretórios e arquivos
 Exemplo:
 
 rm -Rfv */ = apaga todos os diretórios e arquivos do diretório “Documentos”
+
+----------
+
+cp (origem e destino) = Copia arquivos e envia para o local atual renomeado
+
+cp -v (origem e destino) = copia o diretório no local indicado e mostra uma mensagem para cada diretório criado (verboso)
+
+cp -v senac.txt senai.txt = copia o arquivo "senac" e é renomeado o arquivo "senai"
+
+----------
+
+mv (origem e destino) = Move arquivos e envia para o local atual renomeado
+
+mv -v (origem e destino) = Move o diretório no local indicado e mostra uma mensagem para cada diretório movimentado (verboso)
+
+mv -v seci.txt sesi.txt = movimenta o arquivo "seci" e é renomeado o arquivo para "sesi"
+
+mv -v senac.txt senai.txt sesi.txt Documentos/ = Move arquivos e envia para o local indicado no final da linha de comando
