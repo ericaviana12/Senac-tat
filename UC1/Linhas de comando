@@ -1,3 +1,22 @@
+sudo init 0
+id
+sudo
+sudo -i
+
+----------
+
+Atualização Linux
+
+
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+
+----------
+
 / = Diretório raiz é representado pela barra no Linux
 
 Til (~) = Diretório Home (Pessoal)
@@ -11,6 +30,8 @@ pwd = Mostra o nome e caminho absoluto do diretório atual
 < = entrada - de qual local será localizada a informação
 
 | = Pipe - separa funções a serem trabalhadas na linha de comando
+
+history = exibir histórico dos últimos comandos
 
 Caminho absoluto = Caminho Absoluto é o caminho hierárquico que localiza um arquivo ou pasta em um sistema de arquivos a partir da raiz
 
