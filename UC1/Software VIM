@@ -12,11 +12,16 @@ Sair do programa = q (quit)
 
 ----------
 
-"!" = significa que está forçando a ação a ser realizada
+"!" = Significa que está forçando a ação a ser realizada
 
 q! = Sair do programa de modo forçado
 
-w = salva o texto criado no arquivo sem sair do software
+w = Salva o texto criado no arquivo sem sair do software
 
-wq = salva o texto criado no arquivo e sai do software
+wq = Salva o texto criado no arquivo e sai do software
 
+CTRL + SHIFT + V = Colar no VIM o texto que estiver copiado
+
+x = união das funções de salvar e sair (wq)
+
+X = Vai criptografar o arquivo criado no VIM - protegendo o arquivo com senha
