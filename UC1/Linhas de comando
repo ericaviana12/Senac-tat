@@ -6,6 +6,7 @@ sudo -i
 ----------
 
 Atualização Linux
+Linux não tem extensão
 
 
 sudo apt update
