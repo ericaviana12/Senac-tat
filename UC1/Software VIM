@@ -1,0 +1,9 @@
+Funções do software VIM
+
+Visualização = botão ESC no teclado - também volta ao início do programa
+Comando = botão shift + ":" no teclado
+Inserção = botão Insert ou letra "I" no teclado
+Substituição = botão Insert no teclado
+Sair do programa = q (quit)
+Sair do programa de modo forçado = q!
+"!" = significa que está forçando a ação a ser realizada
