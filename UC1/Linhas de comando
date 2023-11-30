@@ -5,9 +5,9 @@ sudo -i
 
 ----------
 
-Atualização Linux
 Linux não tem extensão
 
+Atualização Linux
 
 sudo apt update
 sudo apt upgrade
