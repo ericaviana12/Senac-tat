@@ -202,3 +202,11 @@ mv -v (origem e destino) = Move o diretório no local indicado e mostra uma mens
 mv -v seci.txt sesi.txt = movimenta o arquivo "seci" e é renomeado o arquivo para "sesi"
 
 mv -v senac.txt senai.txt sesi.txt Documentos/ = Move arquivos e envia para o local indicado no final da linha de comando
+
+----------
+
+vim = cria arquivos pelo software VIM
+
+Exemplo:
+
+vim senac.txt
