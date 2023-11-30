@@ -32,3 +32,24 @@ w! = Cria e salva um novo arquivo de modo forçado (necessário incluir o nome e
 
 enew = Fecha o arquivo anterior e cria um novo arquivo
 
+e = Explora os arquivos presentes no diretório
+
+d = deleta as informações do arquivo, caractere por caractere
+
+set nu / set number = exibe o número das linhas no arquivo
+
+----------
+
+! (antes do comando usado no Terminal) = Para validar comandos do Terminal no VIM
+
+Exemplo: 
+
+!ls -lh = Lista os arquivos de um diretório de forma detalhada
+
+----------
+
++ (nº) - após indicar o arquivo que quer abrir no VIM = abre o arquivo na linha escolhida
+
+Exemplo:
+
+vim /etc/services +112
