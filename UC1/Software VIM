@@ -46,10 +46,28 @@ Exemplo:
 
 !ls -lh = Lista os arquivos de um diretório de forma detalhada
 
-----------
+---------- 
 
 + (nº) - após indicar o arquivo que quer abrir no VIM = abre o arquivo na linha escolhida
 
 Exemplo:
 
 vim /etc/services +112
+
+----------
+
+Atalhos para dividir o VIM em múltiplas janelas e acessar cada uma delas:
+
+Ctrl + W + S = divide a janela atual horizontalmente
+
+Ctrl + W + V = Divide a janela atual verticalmente
+
+CTRL + W + ↓ / CTRL + W + J — Move o cursor para a janela abaixo
+
+CTRL + W + ↑ / CTRL + W + K — Move o cursor para a janela de cima
+
+CTRL + W + ← /  CTRL + W + H — Move o cursor para a janela à esquerda
+
+CTRL + W + →, / CTRL + W + L — Move o cursor para a janela à direita
+
+CTRL + W + W — Move o cursor para a próxima janela, ao lado ou embaixo. Este comando é cíclico, ou seja, ele não para e recomeça após chegar à última janela, voltando para a primeira, que estava selecionada, quando você começou.
