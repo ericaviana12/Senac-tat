@@ -1,2 +1,24 @@
 Linhas de comando para funcionamento do Arduino
 
+----------
+
+Fase 1
+
+/**
+Hello world
+@author Professor José de Assis
+*/
+
+void setup() {
+  Serial.begin(9600);          //iniciar a comunicação serial
+  Serial.print("Hello World"); //escreve um texto no Terminal
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
+
+----------
+
+Fase 2
+
