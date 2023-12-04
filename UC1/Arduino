@@ -2,7 +2,7 @@ Linhas de comando para funcionamento do Arduino
 
 ----------
 
-Fase 1
+Fase 1 - gravando frases no Arduino (teste pelo Tinkercad)
 
 /**
   Hello world
@@ -20,7 +20,7 @@ void loop() {
 
 ----------
 
-Fase 2
+Fase 2 - gerando repetição da frase criada - erro na linha de comando (teste pelo Tinkercad)
 
 /**
   Hello world
@@ -37,7 +37,7 @@ void loop() {
 
 ----------
 
-Fase 3
+Fase 3 - gerando repetição da frase criada - linha de comando completa (teste pelo Tinkercad)
 
 /**
   Hello world
@@ -54,7 +54,7 @@ void loop() {
 
 ----------
 
-Fase 4
+Fase 4 - configurando a conexão do Arduino para ativação do LED
 
 /**
   Piscar LED
@@ -71,7 +71,7 @@ void loop() {
 
 ----------
 
-Fase 5
+Fase 5 - configurando a conexão do Arduino para inativação do LED
 
 /**
   Piscar LED
@@ -89,7 +89,7 @@ void loop() {
 
 ----------
 
-Fase 6
+Fase 6 - configurando a conexão do Arduino para o LED piscar com intervalo de 1s
 
 /**
   Piscar LED
