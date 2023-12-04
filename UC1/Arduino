@@ -84,10 +84,25 @@ void setup() {
 
 void loop() {
   //digitalWrite(13, HIGH); //ativar o pino 13
-  digitalWrite(13, LOW); desativar o pino 13
+  digitalWrite(13, LOW);   //desativar o pino 13
 }
 
 ----------
 
 Fase 6
 
+/**
+  Piscar LED
+  @author Professor José de Assis
+*/
+
+void setup() {
+  pinMode(13, OUTPUT);          //configurando o pino 13 como saída
+}
+
+void loop() {
+  digitalWrite(13, HIGH); //ativar o pino 13
+  delay(1000);            //1000ms = 1s  
+  digitalWrite(13, LOW);  //desativar o pino 13
+  delay(1000);            //1000ms = 1s
+}
