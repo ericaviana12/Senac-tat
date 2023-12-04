@@ -22,3 +22,20 @@ void loop() {
 
 Fase 2
 
+/**
+Hello world
+@author Professor José de Assis
+*/
+
+void setup() {
+  Serial.begin(9600);          //iniciar a comunicação serial
+}
+
+void loop() {
+  Serial.print("Hello World"); //escreve um texto no Terminal
+}
+
+----------
+
+Fase 3
+
