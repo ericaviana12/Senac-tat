@@ -73,3 +73,21 @@ void loop() {
 
 Fase 5
 
+/**
+  Piscar LED
+  @author Professor José de Assis
+*/
+
+void setup() {
+  pinMode(13, OUTPUT);          //configurando o pino 13 como saída
+}
+
+void loop() {
+  //digitalWrite(13, HIGH); //ativar o pino 13
+  digitalWrite(13, LOW); desativar o pino 13
+}
+
+----------
+
+Fase 6
+
