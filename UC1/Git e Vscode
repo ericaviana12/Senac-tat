@@ -1,0 +1,37 @@
+#01_ Instalar o VCCode
+
+#02_ Instalar a Extensão Spell PT-BR
+
+#03_ Clonar o seu repositorio do GitHub
+  Comando: git clone https://github.com/ericaviana12/senac-tat
+
+#04_ Organização do Repositorio Local
+
+-----
+
+Configurar o Git Local
+
+  Nome de usuário
+Comando: git config --global user.name "Erica Viana"
+
+  E-mail do GitHub
+Comando: git config --global user.mail "erica.viana.soares@gmail.com"
+
+  Editor de texto
+Comando: git config --global core.editor vim
+
+  Verificação de diferenças de arquivos
+Comando: git config --global merge.tool vimdiff
+
+  Verificação de cores - por status de erro/ok
+Comando: git config --global color.ui true
+
+  Listar configurações
+Comando: git config --list
+
+-----
+
+Integração do VSCode com GitHub
+
+Informar como está o status do diretório e quais mudanças
+  Comando: git status
