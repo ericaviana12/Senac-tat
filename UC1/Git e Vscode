@@ -33,5 +33,8 @@ Comando: git config --list
 
 Integração do VSCode com GitHub
 
-Informar como está o status do diretório e quais mudanças
+Informar como está o status e quais mudanças no clone salvo no VSCode
   Comando: git status
+
+Verificar se constam atualizações no clone salvo
+  Comando: git pull
