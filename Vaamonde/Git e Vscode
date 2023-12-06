@@ -31,6 +31,8 @@ Comando: git config --list
 
 -----
 
+Abrir o Terminal no VSCode: CTRL + J
+
 Integração do VSCode com GitHub
 
 Verificar o status e quais mudanças no clone no VSCode
