@@ -37,7 +37,7 @@ Salvar texto no arquivo pelo VSCode: CTRL + S
 
 Integração do VSCode com GitHub
 
-Verificar o status e mudanças do clone no VSCode
+Verificar status e mudanças do clone no VSCode
   Comando: git status
 
 Verificar se constam atualizações no clone
