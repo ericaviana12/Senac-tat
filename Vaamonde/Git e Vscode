@@ -12,7 +12,7 @@ Configurar o Git Local (repositório clonado)
   Nome de usuário
 Comando: git config --global user.name "Erica Viana"
 
-  E-mail do GitHub
+  E-mail do GitHub (obs)
 Comando: git config --global user.email "erica.viana.soares@gmail.com"
 
   Editor de texto
