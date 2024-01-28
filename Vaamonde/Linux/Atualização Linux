@@ -1,11 +1,11 @@
-1  sudo init 0
-2  id
-3  sudo
-4  sudo -i
-5  sudo apt update
-6  sudo apt upgrade
-7  sudo apt full-upgrade
-8  sudo apt dist-upgrade
-9  sudo apt autoremove
-10  sudo apt autoclean
-11  history
+sudo init 0
+id
+sudo
+sudo -i
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+history
