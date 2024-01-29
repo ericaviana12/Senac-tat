@@ -1,5 +1,7 @@
 #Rota criada pelo professor Robson Vaamonde - Técnico de Informática / Senac Tatuapé
 
+____________________
+
 #Instalação dos Drivers de vídeo
 sudo apt update
 sudo apt install vainfo intel-gpu-tools mesa-opencl-icd mesa-utils-extra
