@@ -1,4 +1,4 @@
-Instalação do NotepadQQ através de linhas de comando no Terminal
+Instalação do kolourpaint através de linhas de comando no Terminal
 
 ____________________
 
