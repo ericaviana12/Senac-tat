@@ -2,8 +2,7 @@ Instalação do canal versão para uso geral do navegador Brave através de linh
 
 ____________________
 
-  
-  Debian, Ubuntu, Mint 
+Debian, Ubuntu, Mint 
 
 sudo apt install curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
