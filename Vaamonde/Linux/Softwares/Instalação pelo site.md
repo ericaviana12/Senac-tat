@@ -1,4 +1,10 @@
- Google Chrome: https://www.google.com/intl/pt-BR/chrome/
+#Rota criada pelo professor Robson Vaamonde - Técnico de Informática / Senac Tatuapé
+
+____________________
+
+#Softwares com instalação pelo site
+ 
+_ Google Chrome: https://www.google.com/intl/pt-BR/chrome/
 
 _ Genymotion: https://www.genymotion.com/download/
 
