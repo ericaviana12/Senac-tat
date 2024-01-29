@@ -2,9 +2,7 @@ Instalação do canal versão para uso geral do navegador Brave através de linh
 
 ____________________
 
-  
 ```
-
 Debian, Ubuntu, Mint 
 
 sudo apt install curl
