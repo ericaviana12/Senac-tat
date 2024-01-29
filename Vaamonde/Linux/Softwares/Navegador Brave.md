@@ -1,5 +1,7 @@
 Instalação do canal versão para uso geral do navegador Brave através de linhas de comando no Terminal
 
+____________________
+
 Debian, Ubuntu, Mint 
 
 sudo apt install curl
