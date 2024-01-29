@@ -1,5 +1,7 @@
 #Rota criada pelo professor Robson Vaamonde - Técnico de Informática / Senac Tatuapé
 
+____________________
+
 #Instalação do software base do Linux Mint
 sudo apt update
 sudo apt install software-properties-common build-essential lsb-core dkms
