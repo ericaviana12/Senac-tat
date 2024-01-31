@@ -1,3 +1,5 @@
-# senac-tat
+Arduino
 
-Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé
+_____
+
+Códigos da linguagem Arduino
