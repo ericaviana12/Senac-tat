@@ -2,4 +2,4 @@ Javascript
 
 _____
 
-Códigos de linguagem Javascript
+Códigos da linguagem Javascript
