@@ -54,6 +54,12 @@ Exemplo:
 
 vim /etc/services +112
 
+
+Para verificar download de arquivo duplicado
+
+Exemplo - Verificando o download do VirtualBox
+sudo vim /etc/apt/sources.list.d/virtualbox.list
+
 ----------
 
 Atalhos para dividir o VIM em múltiplas janelas e acessar cada uma delas:
