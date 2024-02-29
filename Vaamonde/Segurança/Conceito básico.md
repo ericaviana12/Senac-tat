@@ -11,6 +11,7 @@ CERT.br (Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no
 https://www.cert.br/
 
 Cartilha de Segurança para Internet organizada em Fascículos com temas específicos, acompanhados por slides para ministrar palestras ou complementar conteúdos de aulas
+
 Fascículos: https://cartilha.cert.br/fasciculos/
 
 ---
