@@ -4,16 +4,13 @@ Conceitos Básicos de Segurança Windows, GNU/Linux, Redes de Computadores e Usu
 
 Material de Apoio das Aulas:
 
-
 NIC.br (Núcleo de Informação e Coordenação do Ponto BR .br)
 https://nic.br/
-
 
 CERT.br (Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil)
 https://www.cert.br/
 
-
-Cartilha de Segurança para Internet organizada em Fascículos com temas específicos, acompanhados por slides para ministrar palestras ou complementar conteúdos de aulas
+Cartilha de Segurança para Internet organizada em Fascículos com temas específicos, acompanhados por slides para ministrar palestras ou complementar conteúdos de aulas - 
 
 Fascículos: https://cartilha.cert.br/fasciculos/
 
