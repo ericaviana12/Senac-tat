@@ -26,3 +26,13 @@ Foi utilizado o "Ext4"
 
 O sistema Linux lê sistema de arquivos Windows (NTFS)
 
+Disco dinâmico no Linux - LVM
+
+Ao habilitar o LVM e ativando a criptografia é criada uma camada de proteção no SSD
+
+A criptografia de disco protege seus arquivos caso você perca seu computador. Ela requer o fornecimento da chave de segurança cada vez que o computador é iniciado.
+
+Não utilizar senhas de sequencia de letras e/ou números de fácil identificação, como "qwerty" ou "123456"
+
+---
+
