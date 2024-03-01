@@ -1,4 +1,4 @@
-|Conceitos Básicos de Segurança Windows, GNU/Linux, Redes de Computadores e Usuários Finais:|
+Conceitos Básicos de Segurança Windows, GNU/Linux, Redes de Computadores e Usuários Finais:
 
 ---
 
