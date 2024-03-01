@@ -2,4 +2,4 @@ Segurança
 
 ---
 
-Conteúdos das aulas sobre Segurança no sistema operacional
+Conteúdos das aulas sobre segurança no sistema operacional
