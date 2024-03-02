@@ -1,4 +1,4 @@
-Conceitos Básicos de Segurança Windows, GNU/Linux, Redes de Computadores e Usuários Finais:
+Conceitos Básicos de Segurança Windows, GNU/Linux, Redes de Computadores e Usuários Finais
 
 ---
 
@@ -33,7 +33,7 @@ Ao habilitar o LVM e ativando a criptografia é criada uma camada de proteção 
 
 A criptografia de disco protege seus arquivos caso você perca seu computador. Ela requer o fornecimento da chave de segurança cada vez que o computador é iniciado.
 
-Não utilizar senhas de sequência de letras e/ou números de fácil identificação, como "qwerty" ou "123456"
+Não utilizar senhas com sequência de letras e/ou números de fácil identificação, como "qwerty" ou "123456"
 
 ---
 
