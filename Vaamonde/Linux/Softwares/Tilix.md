@@ -9,8 +9,11 @@ Terminal: Ctrl + Alt + T
 #verificando as versões e codinome do sistema operacional
 #OBSERVAÇÃO IMPORTANTE: Linux Mint 20.x é derivado do Ubuntu Desktop 20.04.x Focal Fossa
 #OBSERVAÇÃO IMPORTANTE: Linux Mint 21.x é derivado do Ubuntu Desktop 22.04.x Jammy Jellyfish
+
+```
 sudo cat /etc/os-release
 sudo cat /etc/lsb-release
+```
 
 #modo gráfico para verificar as informações de sistema operacional e hardware
 Menu
@@ -20,23 +23,29 @@ ____________________
 
 #01_ Atualização do Sistema Operacional Linux Mint
 
-_ Atualização do sistema utilizando o MintUpdate;
-_ Atualização do sistema utilizando o Apt;
+ - Atualização do sistema utilizando o MintUpdate;
+ - Atualização do sistema utilizando o Apt;
 
 Terminal: Ctrl + Alt + T
-	sudo apt update
-	sudo apt upgrade
-	sudo apt full-upgrade
-	sudo apt dist-upgrade
-	sudo apt autoremove
-	sudo apt autoclean
+
+```
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+```
 
 ____________________
 
 #02_ Instalando o Terminal Tilix no Linux Mint
 
 #instalando o Tilix e suas dependências
+
+```
 sudo apt install tilix unzip git vim python2 python3
+```
 
 ____________________
 
@@ -44,26 +53,45 @@ ____________________
 
 #criando o diretório das fontes Hack Nerd Fonts
 #opção do comando mkdir: -v (verbose), -p (parents), ~ (til: alias home directory)
+
+```
 mkdir -pv ~/.local/share/fonts/Hack
+```
 
 #acessando o diretório das fontes Hack (link atualizado no dia 15/11/2023)
-cd ~/.local/share/fonts/Hack
 
-	#baixando as fontes do Github (link atualizado em: 03/12/2024)
-	wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
-	
-	#descompactando o arquivo zipado das fontes
-	unzip Hack.zip
-	
-	#atualizando o cache de fontes do sistema operacional com as novas fontes
-	#opção do comando fc-cache: -f (Force up-to-date cache files), -v (Display status)
-	fc-cache -f -v
-	
-	#saindo do terminal
-	exit
+```
+cd ~/.local/share/fonts/Hack
+```
+
+#baixando as fontes do Github (link atualizado em: 03/12/2024)
+
+```
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
+```
+
+#descompactando o arquivo zipado das fontes
+
+```
+unzip Hack.zip
+```
+
+#atualizando o cache de fontes do sistema operacional com as novas fontes
+#opção do comando fc-cache: -f (Force up-to-date cache files), -v (Display status)
+
+```
+fc-cache -f -v
+```
+
+#saindo do terminal
+
+```
+exit
+```
 
 ____________________
 
+```
 #04_ Configurando o Tilix como Terminal Padrão no Linux Mint
 
 #OBSERVAÇÃO IMPORTANTE: no Linux Mint 20.x a mudança do Terminal padrão é feita utilizando
@@ -90,6 +118,7 @@ Menu
 		Sistema
 			Terminal
 				Tilix
+```
 
 ____________________
 
@@ -99,6 +128,7 @@ Atalho do Terminal: Ctrl + Alt + T
 
 ____________________
 
+```
 #06_ Customização Básica do Tilix no Linux Mint
 
 #OBSERVAÇÃO IMPORTANTE: quando você executar o Tilix pela primeira vez a mensagem de Problema de
@@ -120,6 +150,7 @@ Menu
 				Esquemas de Cores: Monokai Dark
 				Transparência: Aumentar um Pouco
 Fechar
+```
 
 ____________________
 
@@ -128,11 +159,19 @@ ____________________
 Terminal: Ctrl + Alt + T
 
 #atualizando as lista do Apt e instalando o ZSH
+
+```
 sudo apt update
 sudo apt install zsh
+```
 
 #Executando o Terminal ZSH
+
+```
 zsh
+```
+```
+
 	#selecione a opção 2 para a criação do arquivo: ~/.zshrc com as configurações recomendadas
 	Type one of the keys in parentheses: 2
 
@@ -146,9 +185,19 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 #recomendo fechar o Terminal Tilix e abrir novamente para verificar se tudo está funcionando
 #será necessário sair 03 (três) vezes do terminal para concluir a configuração, você pode usar
 #o atalho: Ctrl + D para sair dos terminais.
+```
+
+```
 exit
+```
+
+```
 exit
+```
+
+```
 exit
+```
 
 ____________________
 
@@ -160,19 +209,34 @@ Link de referência: https://github.com/zsh-users/zsh-syntax-highlighting
 Link de referência FZF: https://github.com/junegunn/fzf.git
 
 #Instalação do Plugin Highlighting do ZSH
+
+```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
 
 #Instalação do Plugin Zsh-AutoSuggestions do ZSH
+
+```
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
 
 #Instalação do Plugin K do ZSH
+
+```
 git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+```
 
 #Instalação do Tema PowerLevel10K
+
+```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+```
 
 #Instalação do Plugin FZF do ZSH
+
+```
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+```
 
 #Executando o instalador do Plugin FSF do ZSH
 ~/.fzf/install
@@ -185,8 +249,12 @@ ____________________
 09_ Editando o arquivo de configuração do ZSHRC no Linux Mint
 
 #editando o arquivo de configuração do ZSHRC
-vim ~/.zshrc
 
+```
+vim ~/.zshrc
+```
+
+```
 #entrar no modo de edição do Vim
 INSERT
 
@@ -211,9 +279,11 @@ ESC SHIFT :x <Enter>
 
 #recomendo fechar o Terminal Tilix e abrir novamente para verificar se tudo está funcionando,
 #deverá iniciar automaticamente a customização do Tema PowerLevel10K utilizando o Wizard padrão.
+```
 
 ____________________
 
+```
 #10_ Personalizando o Tema PowerLevel10K no Linux Mint
 
 #abrir um novo terminal para iniciar as configurações do PowerLevel10K
@@ -281,9 +351,11 @@ Terminal: Ctrl + Alt + T
 
 #caso queira reconfigurar o PowerLevel10K novamente digite o comando abaixo.
 p10k configure
+```
 
 ____________________
 
+```
 #11_ Configurando o Visual Studio Code com suporte a Fonte Hack Nerd Font e Terminal ZSH
 
 #OBSERVAÇÃO IMPORTANTE: executar esse procedimento somente se você tem instalado
@@ -298,3 +370,4 @@ Ctrl + J
 	Terminal: Selecionar o Perfil Padrão (Símbolo do + Launch Profile)
 		zsh
 		#OBSERVAÇÃO: remover depois o bash do perfil padrão
+```
