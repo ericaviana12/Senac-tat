@@ -184,6 +184,7 @@ gns3
 
 ____________________
 
+```
 #10_ Configuração Básica do GNS3 na primeira inicialização
 
 Setup Wizard
@@ -197,9 +198,11 @@ Setup Wizard
 		<Next>
 	Local server status: <Next>
 	Summary: <Finish>
+```
 
 ____________________
 
+```
 #11_ Configuração da Licença do IOU L2 e L3 no GNS3
 
 #download do script de geração da Licença do IOU L2 e L3
@@ -214,9 +217,11 @@ vim .config/GNS3/2.2/iourc
 	INSERT
 		Colar o bloco de licença: Ctrl + Shift + V
 	ESC SHIFT : x <Enter>
+```
 
 ____________________
 
+```
 #12_ Configuração das Preferências Básicas do GNS3 Gui
 
 Edit
@@ -260,9 +265,11 @@ Edit
 		Docker: (Default)
 <Apply>
 <OK>
+```
 
 ____________________
 
+```
 #13_ Criando um projeto simples no GNS3 Gui e GNS3 Webclient
 
 Project
@@ -319,3 +326,4 @@ Edit
 				<Finish>
 		<Apply>
 	<OK>
+```
