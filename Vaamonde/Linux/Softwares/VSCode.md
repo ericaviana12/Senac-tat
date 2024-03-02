@@ -8,8 +8,11 @@ Terminal: Ctrl + Alt + T
 
 OBSERVAÇÃO IMPORTANTE: Linux Mint 20.x é derivado do Ubuntu Desktop 20.04.x Focal Fossa 
 OBSERVAÇÃO IMPORTANTE: Linux Mint 21.x é derivado do Ubuntu Desktop 22.04.x Jammy Jellyfish
+
+```
 sudo cat /etc/os-release
 sudo cat /etc/lsb-release
+```
 
 Menu
 	Informações do Sistema
@@ -18,33 +21,39 @@ ____________________
 
 #01_ Atualização do Sistema Operacional Linux Mint
 
-_ Atualização do sistema utilizando o MintUpdate;
-_ Atualização do sistema utilizando o Apt;
+ - Atualização do sistema utilizando o MintUpdate;
+ - Atualização do sistema utilizando o Apt;
 
 Terminal: Ctrl + Alt + T
-	sudo apt update
-	sudo apt upgrade
-	sudo apt full-upgrade
-	sudo apt dist-upgrade
-	sudo apt autoremove
-	sudo apt autoclean
+
+```
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+```
 
 ____________________
 
 #02_ Instalando as Dependências do Microsoft Visual Studio Code VSCode no Linux Mint
 
+```
 sudo apt install vim git python2 python3 cloc
+```
 
 ____________________
 
 #03_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint
 
-https://code.visualstudio.com/download
+ - https://code.visualstudio.com/download
 	Versão: .deb (Debian, Ubuntu 64 Bits)
 		Salvar aquivo
 
 ____________________
 
+```
 #04_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint
 
 Arquivos
@@ -52,9 +61,11 @@ Arquivos
 		code_1.*_amd64
 			Instalar Pacote
 		Fechar
+```
 
 ____________________
 
+```
 #05_ Verificando o novo repositório do Microsoft Visual Studio Code VSCode no MintUpdate
 
 Menu
@@ -68,9 +79,11 @@ Menu
 						Microsoft (Release signing)
 			Fechar
 	Fechar
+```
 
 ____________________
 
+```
 #06_ Iniciando o Microsoft Visual Studio Code VSCode no Linux Mint
 
 Menu
@@ -79,9 +92,11 @@ Menu
 			Dark Theme
 			Notifications: Pacote PT-BR
 			Disable: Mostrar página inicial na inicialização
+```
 
 ____________________
 
+```
 #07_ Configurando o Microsoft Visual Studio Code VSCode como Aplicativo de Preferência no Linux Mint
 
 Menu
@@ -89,9 +104,11 @@ Menu
 		Aplicativos de Preferencias
 			Texto puro: Visual Studio Code
 			Código fonte: Visual Studio Code
+```
 
 ____________________
 
+```
 #08_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode
 
 Portuguese (Brazil) Language Pack for Visual Studio Code
@@ -159,9 +176,11 @@ Remote - SSH
 
 NoSQL
 	(Sem necessidade de configuração)
+```
 
 ____________________
 
+```
 #09_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint
 
 Gerenciar
@@ -190,3 +209,4 @@ Gerenciar
 		Ctrl + Shift + P
 			Terminal: Selecionar o Perfil Padrão
 				zsh
+```
