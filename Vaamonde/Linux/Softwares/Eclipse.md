@@ -119,7 +119,7 @@ ____________________
  - 03 na tela de Eclipse IDE Launcher deixar o padrão do Workspace:
 	Workspace: /home/seu_usuário/eclipse-workspace/
  - 04 marque a opção: use this default and do not ask again
- - 05 clique em: <Launch>
+ - 05 clique em: Launch
 
 ____________________
 
