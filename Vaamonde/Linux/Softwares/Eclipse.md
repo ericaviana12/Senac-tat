@@ -106,20 +106,20 @@ ____________________
 
 #06_ Descompactar o Arquivo Zipado do Eclipse IDE no Linux Mint
 
-_01 acessar o diretório: Download;
-_02 clicar com o botão direito do mouse no arquivo: eclipse-jee-*.tar.gz
-_03 selecionar a opção: Extrair aqui
+ - 01 acessar o diretório: Download;
+ - 02 clicar com o botão direito do mouse no arquivo: eclipse-jee-*.tar.gz
+ - 03 selecionar a opção: Extrair aqui
 
 ____________________
 
 #07_ Executando o Eclipse IDE no Linux Mint
 
-_01 acessar o diretório: eclipse
-_02 executar o aplicativo (clicando duas vezes): eclipse
-_03 na tela de Eclipse IDE Launcher deixar o padrão do Workspace:
+ - 01 acessar o diretório: eclipse
+ - 02 executar o aplicativo (clicando duas vezes): eclipse
+ - 03 na tela de Eclipse IDE Launcher deixar o padrão do Workspace:
 	Workspace: /home/seu_usuário/eclipse-workspace/
-_04 marque a opção: use this default and do not ask again
-_05 clique em: <Launch>
+ - 04 marque a opção: use this default and do not ask again
+ - 05 clique em: <Launch>
 
 ____________________
 
