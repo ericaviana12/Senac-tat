@@ -1,4 +1,4 @@
-#### Atualização do Linux por linhas de comando
+# Atualização do Linux por linhas de comando
 
 ---
 
