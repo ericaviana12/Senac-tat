@@ -7,13 +7,19 @@ ____________________
 #verificando as versões e codinome do sistema operacional
 #OBSERVAÇÃO IMPORTANTE: Linux Mint 20.x é derivado do Ubuntu Desktop 20.04.x Focal Fossa
 #OBSERVAÇÃO IMPORTANTE: Linux Mint 21.x é derivado do Ubuntu Desktop 22.04.x Jammy Jellyfish
+
+```
 sudo cat /etc/os-release
 sudo cat /etc/lsb-release
+```
 
 #verificando informações de hardware e processador
 #opções do comando inxi: -C (cpu), -M (machine), -S (system), -f (flags), -xxx (extra 3)
+
+```
 sudo inxi -CMSfxxx
 sudo lscpu
+```
 
 #modo gráfico para verificar as informações de sistema operacional e hardware
 Menu
@@ -23,17 +29,20 @@ ____________________
 
 #01_ Atualização do Sistema Operacional Linux Mint
 
-_ Atualização do sistema utilizando o MintUpdate;
-_ Atualização do sistema utilizando o Apt;
+ - Atualização do sistema utilizando o MintUpdate;
+ - Atualização do sistema utilizando o Apt;
 
 Terminal: Ctrl + Alt + T
-	sudo apt update
-	sudo apt upgrade
-	sudo apt full-upgrade
-	sudo apt dist-upgrade
-	sudo apt autoremove
-	sudo apt autoclean
-	sudo apt clean
+
+```
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+sudo apt clean
+```
 
 ____________________
 
@@ -41,21 +50,30 @@ ____________________
 
 #adicionando a arquitetura i386 (32 Bits)
 #opção do comando dpkg: ---add-architecture (Add architecture to the list of architectures)
+
+```
 sudo dpkg --add-architecture i386
+```
 
 ____________________
 
 #03_ Adicionando o PPA do Projeto do GNS3 no Linux Mint
 
 #adicionando o repositório pessoal do GNS3 (PPA = Personal Package Archives)
+
+```
 sudo add-apt-repository ppa:gns3/ppa
+```
 
 ____________________
 
 #04_ Atualizando as Listas do Apt com o novo PPA do GNS3 no Linux Mint
 
 #atualizando as listas do Apt com o novo repositório
+
+```
 sudo apt update
+```
 
 ____________________
 
@@ -63,10 +81,13 @@ ____________________
 
 #instalação das dependências básicas e o GNS3
 #opção da contra barra (\): criar uma quebra de linha no terminal
+
+```
 sudo apt install gns3-gui gns3-iou gns3-server gns3-webclient-pack dynamips vpcs xterm ubridge nmap \
 iptraf-ng iperf3 ipcalc git vim uml-utilities bridge-utils wireshark wireshark-common wireshark-dev \
 cpulimit qemu qemu-utils qemu-kvm qemu-user qemu-system-x86 python3 python3-pyqt5 telnet kvmtool \
 vinagre virt-viewer python2 cpu-checker libvirt-clients
+```
 
 #mensagem de configuração da Captura de Pacotes do Wireshark
 Configuration wireshark-common and uBridge
@@ -79,14 +100,20 @@ ____________________
 
 #alterando as permissões do binário do uBridge
 #opção do comando chmod: -v (verbose), 777 (user=RWX,group=RWX,other=RWX)
+
+```
 sudo chmod -v 777 /usr/bin/ubridge
+```
 
 ____________________
 
 #07_ Verificando a versão do GNS3 instalado no Linux Mint
 
 #verificando a versão fo GNS3
+
+```
 gns3 --version
+```
 
 ____________________
 
@@ -94,32 +121,56 @@ ____________________
 
 #adicionando o seu usuário no grupo do Wireshark
 #opções do comando usermod: -a (append), -G (groups), $USER (environment variable)
+
+```
 sudo usermod -a -G wireshark $USER
+```
 
 #alterando a prioridade do grupo do binário do Dumpcap
 #opção do comando chgrp: -v (verbose)
+
+```
 sudo chgrp -v wireshark /usr/bin/dumpcap
+```
 
 #alterando as permissões do binário do Dumpcap
 #opções do comando chmod: -v (verbose), 750 (user=RWX,group=R-X,other=---)
+
+```
 sudo chmod -v 750 /usr/bin/dumpcap
+```
 
 #configurando as opções de captura do Dumpcap
+
+```
 sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
 sudo getcap /usr/bin/dumpcap
+```
 
 #forçando o seu usuário a pertencer ao grupo do Wireshark
 #opção do comando gpasswd: -a (add), $USER (environment variable)
+
+```
 sudo gpasswd -a $USER wireshark
+```
 
 #fazendo login em um novo grupo do Wireshark
+
+```
 newgrp wireshark
+```
 
 #verificando os identificadores de usuário e grupos
+
+```
 id
+```
 
 #recomendado reinicializar a máquina para aplicar as permissões
+
+```
 sudo reboot
+```
 
 ____________________
 
@@ -127,7 +178,9 @@ ____________________
 
 Terminal: Ctrl + Alt + T
 
+```
 gns3
+```
 
 ____________________
 
@@ -150,7 +203,7 @@ ____________________
 #11_ Configuração da Licença do IOU L2 e L3 no GNS3
 
 #download do script de geração da Licença do IOU L2 e L3
-wget https://raw.githubusercontent.com/vaamonde/dell-linuxmint/master/scripts/CiscoIOUKeyGen3.py
+ - wget https://raw.githubusercontent.com/vaamonde/dell-linuxmint/master/scripts/CiscoIOUKeyGen3.py
 
 #gerando a chave de Licença do IOU L2 e L3
 #OBSERVAÇÃO IMPORTANTE: selecionar e copiar a chave de licença a partir do bloco [license]
