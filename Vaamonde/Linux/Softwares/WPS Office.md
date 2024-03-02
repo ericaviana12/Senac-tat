@@ -91,6 +91,8 @@ wps
 
  - 07_ Sétima etapa..: Procedimentos para corrigir a Falha de Acentuação do WPS Office
 
+
+```
 	_ Abrir o WPS Office 2019;
 	_ na tela inicial do WPS Office clicar em: Global Settings (Definições Globais);
 	_ selecionar: settings (Definições);
@@ -99,3 +101,4 @@ wps
 	_ na tela de Restart WPS to see changes clicar em: <OK>;
 	_ Fechar o WPS Office e testar a acentuação no Write e Spreadsheets;
 	_ na tela de Verificação do Sistema marque a opção: Não relatar novamente e <Close>
+```
