@@ -8,9 +8,12 @@ Terminal: Ctrl + Alt + T
 
 OBSERVAÇÃO IMPORTANTE: Linux Mint 20.x é derivado do Ubuntu Desktop 20.04.x Focal Fossa 
 OBSERVAÇÃO IMPORTANTE: Linux Mint 21.x é derivado do Ubuntu Desktop 22.04.x Jammy Jellyfish
+
+```
 sudo cat /etc/os-release
 sudo cat /etc/lsb-release
 sudo localectl
+```
 
 Menu
 	Informações do Sistema
@@ -23,44 +26,60 @@ Atualização do sistema utilizando o MintUpdate;
 Atualização do sistema utilizando o Apt;
 
 Terminal: Ctrl + Alt + T
-	sudo apt update
-	sudo apt upgrade
-	sudo apt full-upgrade
-	sudo apt dist-upgrade
-	sudo apt autoremove
-	sudo apt autoclean
+
+```
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+```
 
 ____________________
 
 #02_ Instalando as Dependências do Eclipse IDE no Linux Mint
 
 #INSTALANDO O ECLIPSE IDE NO LINUX MINT 20.x
+
+```
 sudo apt install git vim openjdk-17-jdk openjdk-17-jre openjdk-17-jre-headless \
 software-properties-common build-essential
+```
 
 #INSTALANDO O ECLIPSE IDE NO LINUX MINT 21.x (RECOMENDADO UTILIZAR A VERSÃO 17)
+
+```
 sudo apt install git vim openjdk-17-jdk openjdk-17-jre openjdk-17-jre-headless \
 software-properties-common build-essential
+```
 
 #OBSERVAÇÃO IMPORTANTE: USAR OUTRAS VERSÕES DO JAVA PODE ACARRETAR EM FALHAS DE PROJETO
 #DE SOFTWARE, CUIDADO COM A VERSÃO DO JAVA UTILIZADO EM SEU PROJETO.
 
 #CASO QUEIRA UTILIZAR OUTRAS VERSÕES DO JAVA NO LINUX 21.x (EXECUTAR SOMENTE SE NECESSÁRIO)
+
+```
 sudo apt install git vim openjdk-18-jdk openjdk-18-jre openjdk-18-jre-headless \
 software-properties-common build-essential
+```
 
+```
 sudo apt install git vim openjdk-19-jdk openjdk-19-jre openjdk-19-jre-headless \
 software-properties-common build-essential
-
+```
 ____________________
 
 #03_ Verificando as Versões do Java instalado no Linux Mint
 
 #opção do comando grep: -i (ignore-case)
+
+```
 sudo java -version
 sudo apt list --installed | grep -i openjdk
 sudo update-alternatives --list java
 sudo update-java-alternatives --list
+```
 
 ____________________
 
@@ -69,16 +88,19 @@ ____________________
 #OBSERVAÇÃO IMPORTANTE: cuidado com a versão do Java que você for utilizar no seu projeto, 
 versões diferentes pode causar falha de abertura do projeto ou erro na hora de executar a 
 compilação e criação do arquivo WAN ou JAR.
+
+```
 sudo update-alternatives --config java
+```
 
 ____________________
 
 #05_ Download do Eclipse IDE no Linux Mint
 
 #recomendo utilizar a versão do Eclipse IDE Enterprise Java e Web
-Link do download: https://www.eclipse.org/downloads/packages/
+ - Link do download: https://www.eclipse.org/downloads/packages/
 Versão do Eclipse: Eclipse IDE for Enterprise Java and Web Developers
-	Linux x86_64: eclipse-jee-2023-09-R-linux-gtk-x86_64.tar.gz (atualizado em 12/11/2023)
+ - Linux x86_64: eclipse-jee-2023-09-R-linux-gtk-x86_64.tar.gz (atualizado em 12/11/2023)
 
 ____________________
 
@@ -121,8 +143,13 @@ ____________________
 
 Terminal: Ctrl + Alt + T
 
+```
 cd eclipse-workspace/
-	git clone https://github.com/vaamonde/javaimc
+```
+
+```
+git clone https://github.com/vaamonde/javaimc
+```
 
 ____________________
 
