@@ -170,10 +170,10 @@ sudo apt install zsh
 ```
 zsh
 ```
-```
 
-	#selecione a opção 2 para a criação do arquivo: ~/.zshrc com as configurações recomendadas
-	Type one of the keys in parentheses: 2
+```
+#selecione a opção 2 para a criação do arquivo: ~/.zshrc com as configurações recomendadas
+Type one of the keys in parentheses: 2
 
 #instalando o Oh My Zsh no Linux Mint via script do Github
 #opção do comando sh: -c (Read commands from the command_string operand in‐stead of from the standard input)
