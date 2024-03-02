@@ -2,20 +2,22 @@
 
 ____________________
 
+```
 #Softwares com instalação pelo site
- 
-_ Google Chrome: https://www.google.com/intl/pt-BR/chrome/
 
-_ Genymotion: https://www.genymotion.com/download/
+ - Google Chrome: https://www.google.com/intl/pt-BR/chrome/
 
-_ Kdenlive: https://kdenlive.org/en/
+ - Genymotion: https://www.genymotion.com/download/
+
+ - Kdenlive: https://kdenlive.org/en/
 (link da versão AppImage >=23.08.x: https://kdenlive.org/en/download/)
 
-_ OBS Studio: https://obsproject.com/pt-br
+ - OBS Studio: https://obsproject.com/pt-br
 (link da versão para Linux: https://obsproject.com/pt-br/download)
 
-_ Redshift: http://jonls.dk/redshift/
+ - Redshift: http://jonls.dk/redshift/
 (nativo no Linux Mint, versão >= 1.12)
 
-_ Timeshift: https://github.com/teejee2008/timeshift
+ - Timeshift: https://github.com/teejee2008/timeshift
 (nativo no Linux Mint, versão >= 22.06)
+```
