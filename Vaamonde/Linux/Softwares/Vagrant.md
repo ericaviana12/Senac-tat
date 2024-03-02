@@ -251,8 +251,6 @@ vim Vagrantfile
 	ESC dG (d=delete | G=end of file)
 	INSERT
 
-____________________
-
 ```
 #Início da configuração da BOX (Imagem) do Vagrant indicando a maior versão ("2")
 #OBSERVAÇÃO IMPORTANTE: Recuo PADRÃO adequado SEMPRE usar ESPAÇO e NÃO TAB (tabulador) - 2(dois) ESPAÇOS
@@ -288,8 +286,6 @@ Vagrant.configure("2") do |config|
 #Fim do Bloco de Configuração: Configure (|config|)
 end
 ```
-
-____________________
 
 	#salvar e sair do arquivo
 	ESC Shift :x <Enter>
