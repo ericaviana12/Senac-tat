@@ -2,7 +2,6 @@
 
 ____________________
 
-```
 #Softwares com instalação pelo site
 
  - Google Chrome: https://www.google.com/intl/pt-BR/chrome/
@@ -20,4 +19,3 @@ ____________________
 
  - Timeshift: https://github.com/teejee2008/timeshift
 (nativo no Linux Mint, versão >= 22.06)
-```
