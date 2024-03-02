@@ -6,4 +6,5 @@ ____________________
 sudo apt update && sudo apt install audacity
 ```
 
-Audacity: https://www.audacityteam.org/
+Opção de instalação pelo site
+ - Audacity: https://www.audacityteam.org/
