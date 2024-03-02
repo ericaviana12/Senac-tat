@@ -7,6 +7,7 @@ Ligar o notebook e selecionar o "Boot menu" apertando F12
 Selecionar a opção USB, após a opção "Start Linux Mint"
 
 Abrir o menu iniciar e localizar o software "Gparted"
+
 Deletar os arquivos de baixo para cima
 Aplicar as atualizações no ícone verde ✓ no canto superior do software
 
