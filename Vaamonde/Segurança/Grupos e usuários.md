@@ -10,5 +10,7 @@ O Sudo e o adminstrador são grupos para super usuário, que são responsáveis 
 
 A não utilização do usuário administrador/sudo reduz o risco de invasão e alterações por vírus, pois usuário padrão não há permissão de execução de alterações e/ou downloads no computador
 
+Todo novo usuário criado no software Linux é criado um grupo com o próprio nome deste usuário
+
 ---
 
