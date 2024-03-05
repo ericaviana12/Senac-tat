@@ -16,4 +16,4 @@ Todo novo usuário criado no software Linux é criado um grupo com o próprio no
 
 Novos usuários do Microsoft são inseridos no grupo "Usuários", que não tem permissão de segurança
 
-Para aplicar novas permissões nos uusários é necessário encerrar a sessão no computador para validação
+Para aplicar novas permissões aos usários é necessário encerrar a sessão no computador para validação
