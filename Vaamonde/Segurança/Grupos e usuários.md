@@ -1,4 +1,4 @@
-Grupos de usuários
+Grupos e usuários
 
 ---
 
