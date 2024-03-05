@@ -37,3 +37,11 @@ Não utilizar senhas com sequência de letras e/ou números de fácil identifica
 
 ---
 
+Ativar o Bitlocker no Windows 10
+
+Verificar complexidade de Senhas:
+ - https://password.kaspersky.com/pt/
+
+Verificar as senhas mais usadas:
+ - https://cybernews.com/best-password-managers/most-common-passwords/
+ - https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords
