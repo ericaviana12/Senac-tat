@@ -1,5 +1,6 @@
-|Grupos de usuários|
-:--
+Grupos de usuários
+
+---
 
 Na formatação do software e criação dos usuários (Linux e Windows), o primeiro usuário é principal e responsável pela execução de permissões no computador.
 
