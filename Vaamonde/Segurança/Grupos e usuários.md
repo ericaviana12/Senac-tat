@@ -14,4 +14,4 @@ A não utilização do usuário administrador/sudo reduz o risco de invasão e a
 
 Todo novo usuário criado no software Linux é criado um grupo com o próprio nome deste usuário
 
-Novos usuários do Microsoft são inseriados no grupo "Usuários", que não tem permissão de segunrança
+Novos usuários do Microsoft são inseridos no grupo "Usuários", que não tem permissão de segurança
