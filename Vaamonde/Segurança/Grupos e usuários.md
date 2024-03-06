@@ -13,8 +13,8 @@ A não utilização do usuário administrador/sudo reduz o risco de invasão e a
 
 ---
 
-Todo novo usuário criado no software Linux é criado um grupo com o próprio nome deste usuário
+Linux: Toda criação de um novo usuário é criado um grupo com o próprio nome deste usuário
 
-Novos usuários do Microsoft são inseridos no grupo "Usuários", que não tem permissão de segurança
+Windows: Toda criação de um novo usuário é inserido no grupo padrão "Usuários", que não tem permissão de segurança
 
 Para aplicar novas permissões aos usários é necessário encerrar a sessão no computador para validação
