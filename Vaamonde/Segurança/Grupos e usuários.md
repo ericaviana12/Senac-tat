@@ -9,11 +9,11 @@ Na formatação do software e criação dos usuários (Linux e Windows), o prime
 
 ---
 
-Linux: o Grupo de Administração Total no GNU/Linux é o "Sudo (root)"
-
-Windows: o Grupo de Administração Total no Windows é o "Administradores"
-
 Usuários administradores são responsáveis pelas permissões de execução no computador
+
+ - Linux: o Grupo de Administração Total no GNU/Linux é o "Sudo (root)"
+
+ - Windows: o Grupo de Administração Total no Windows é o "Administradores"
 
 A não utilização deste usuário reduz o risco de invasão e alterações por vírus, pois usuário padrão não há permissão de execução de alterações e/ou downloads no computador
 
