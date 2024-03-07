@@ -1,10 +1,9 @@
-Redes e computadores
+Placas de rede no VirtualBox
 
 ---
 
 Material de apoio da aula - Fascículos de redes e computadores
  - https://cartilha.cert.br/fasciculos/ opção #redes
- - https://cartilha.cert.br/fasciculos/ opção #computadores
 
 ---
 
@@ -33,3 +32,4 @@ Embora tecnicamente tudo o que pode ser feito usando redes internas também poss
 ---
 
 IP dinâmico ou estático
+
