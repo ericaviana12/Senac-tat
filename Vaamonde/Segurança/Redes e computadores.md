@@ -3,8 +3,8 @@ Redes e computadores
 ---
 
 Material de apoio da aula - Fascículos de redes e computadores
- - https://cartilha.cert.br/fasciculos/#redes
- - https://cartilha.cert.br/fasciculos/#computadores
+ - https://cartilha.cert.br/fasciculos/ opção #redes
+ - https://cartilha.cert.br/fasciculos/ opção #computadores
 
 ---
 
