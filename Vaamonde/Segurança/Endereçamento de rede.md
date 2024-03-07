@@ -13,8 +13,6 @@ Linux..: Configurações de Rede
 
 ---
 
-```
-
  - Comandos Básicos de Redes Windows e Linux
 
 Verificação de endereçamento do IP 
@@ -31,6 +29,7 @@ Configuração do endereçamento do IP (renovação da concessão)
 	ipconfig /renew				sudo ifconfig enp0s3 up
 
 
+
 	ipconfig /displaydns			resolvectl statistics
 	ipconfig /flushdns			resolvectl flush-caches
 						resolvectl reset-statistics
@@ -45,9 +44,5 @@ Configuração do endereçamento do IP (renovação da concessão)
 Ping - Avaliar a conexão da rede de equipamentos internos (computadores, impressoras, máquinas etc) e a conexão com servidores de internet e endereços de sites específicos, determinando o tempo de latência da resposta entre as máquinas
 
 	Windows					Linux
-	ping 8.8.8.8 -t (termitente)
 	ping 8.8.8.8				ping 8.8.8.8
-
-
-
-```
+  	ping 8.8.8.8 -t (intermitente)
