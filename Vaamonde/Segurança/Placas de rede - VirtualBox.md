@@ -28,8 +28,3 @@ https://www.virtualbox.org/manual/ch06.html#network_internal
 A rede interna é semelhante à rede em ponte, pois a VM pode se comunicar diretamente com o mundo externo. No entanto, o mundo exterior está limitado a outras VMs no mesmo host que se conectam à mesma rede interna.
 
 Embora tecnicamente tudo o que pode ser feito usando redes internas também possa ser feito usando redes em ponte, há vantagens de segurança com redes internas. No modo de rede em ponte, todo o tráfego passa por uma interface física do sistema host. Portanto, é possível anexar um sniffer de pacotes como o Wireshark à interface do host e registrar todo o tráfego que passa por ele. Se, por algum motivo, você preferir que duas ou mais VMs na mesma máquina se comuniquem de forma privada, ocultando seus dados do sistema host e do usuário, a rede em ponte não será uma opção.
-
----
-
-IP dinâmico ou estático
-
