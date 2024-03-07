@@ -13,7 +13,8 @@ Linux..: Configurações de Rede
 
 ---
 
-Comandos Básicos de Redes Windows e Linux
+|Comandos Básicos de Redes Windows e Linux|
+:---
 
 Verificação de endereçamento do IP 
 
