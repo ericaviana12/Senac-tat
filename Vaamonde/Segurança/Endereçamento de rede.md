@@ -18,6 +18,7 @@ Linux..: Configurações de Rede
 Verificação de endereçamento do IP 
 
 	Windows					Linux
+ 
 	ipconfig				ifconfig
 	ipconfig /all				route -n
                                 		resolvectl
@@ -25,6 +26,7 @@ Verificação de endereçamento do IP
 Configuração do endereçamento do IP (renovação da concessão)
 
 	Windows					Linux
+ 
 	ipconfig /release			sudo ifconfig enp0s3 down
 	ipconfig /renew				sudo ifconfig enp0s3 up
 
@@ -44,5 +46,6 @@ Configuração do endereçamento do IP (renovação da concessão)
 Ping - Avaliar a conexão da rede de equipamentos internos (computadores, impressoras, máquinas etc) e a conexão com servidores de internet e endereços de sites específicos, determinando o tempo de latência da resposta entre as máquinas
 
 	Windows					Linux
+ 
 	ping 8.8.8.8				ping 8.8.8.8
   	ping 8.8.8.8 -t (intermitente)
