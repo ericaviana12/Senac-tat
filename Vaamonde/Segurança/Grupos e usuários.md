@@ -4,9 +4,9 @@ Grupos e usuários
 
 Na formatação do software e criação dos usuários (Linux e Windows), o primeiro usuário é principal e responsável pela execução de permissões no computador.
 
- - Linux: O primeiro usuário é inserido em dois grupos, sendo um deles o "Sudo"
+   Linux: O primeiro usuário é inserido em dois grupos, sendo um deles o "Sudo"
 
- - Windows: O primeiro usuário é inserido em dois grupos, sendo um deles o "Adminstrador"
+   Windows: O primeiro usuário é inserido em dois grupos, sendo um deles o "Adminstrador"
 
 ---
 
