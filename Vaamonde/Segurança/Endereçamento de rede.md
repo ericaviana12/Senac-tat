@@ -52,6 +52,7 @@ Ping - Avaliar a conexão da rede de equipamentos internos (computadores, impres
  
 	ping 8.8.8.8				ping 8.8.8.8
   	ping 8.8.8.8 -t (intermitente)
+   
 	route print				route -n
 	tracert 8.8.8.8				sudo apt update
 						sudo apt install traceroute
