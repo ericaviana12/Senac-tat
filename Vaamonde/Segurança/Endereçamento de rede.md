@@ -31,12 +31,22 @@ Configuração do endereçamento do IP (renovação da concessão)
 	ipconfig /release			sudo ifconfig enp0s3 down
 	ipconfig /renew				sudo ifconfig enp0s3 up
 
+Visualização das estatísticas de cache de navegação
 
+	Windows					Linux
 
 	ipconfig /displaydns			resolvectl statistics
+
+ Limpar as estatísticas de cache de navegação
+ 
+	Windows					Linux
+
 	ipconfig /flushdns			resolvectl flush-caches
+
+
+
 						resolvectl reset-statistics
-	route print				route -n
+  	route print				route -n
 	tracert 8.8.8.8				sudo apt update
 						sudo apt install traceroute
 						traceroute 8.8.8.8
