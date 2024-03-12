@@ -2,6 +2,7 @@ Endereçamento de redes
 
 ---
 
+```
 Endereçamento IPv4 Linux e Windows
 	Windows: Conexões de Rede
 		Conexão Local
@@ -10,6 +11,7 @@ Endereçamento IPv4 Linux e Windows
 Linux..: Configurações de Rede
 		Cabeada
 			Engrenagem
+```
 
 ---
 
@@ -23,6 +25,13 @@ Verificação de endereçamento do IP
 	ipconfig				ifconfig
 	ipconfig /all				route -n
                                 		resolvectl
+
+
+Visualização de tabela de roteamento (para descobrir o Gateway padrão)
+
+ 	Windows					Linux
+
+	route print 				route -n
 
 Configuração do endereçamento do IP (renovação da concessão)
 
@@ -52,9 +61,24 @@ Ping - Avaliar a conexão da rede de equipamentos internos (computadores, impres
  
 	ping 8.8.8.8				ping 8.8.8.8
   	ping 8.8.8.8 -t (intermitente)
-   
-	route print				route -n
-	tracert 8.8.8.8				sudo apt update
+
+Se o tempo de resposta estiver acima de 100/150ms (milisegundos) pode ter ocorrido algum problema com a rede de internet
+
+Uma boa conexão de rede é abaixo de 10ms (milisegundos)
+
+---
+
+Avaliar a conexão da rede - Verificação da rota completa do endereçamento do IP
+
+ 	Windows					Linux
+
+						sudo apt update
 						sudo apt install traceroute
-						traceroute 8.8.8.8
-	nslookup 8.8.8.8			nslookup 8.8.8.8
+	tracert 8.8.8.8				traceroute 8.8.8.8
+
+
+Verificar se as configurações de rede dos servidores DNS (Domain Name System / Sistema de Nomes de Domínio) está configurada de forma correta
+
+  	Windows					Linux
+
+ 	nslookup 8.8.8.8			nslookup 8.8.8.8
