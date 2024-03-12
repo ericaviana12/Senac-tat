@@ -6,9 +6,9 @@ Para habilitar ou desabilitar permissão de entrada de ping no Windows e/ou Linu
 
 Windows
     
-  Iniciar, Painel de Controle, Firewall do Windows
-   	Avançado, ICMP, Configurações
-		Permitir solicitação de ECHO de Entrada
+    	Iniciar, Painel de Controle, Firewall do Windows
+   		Avançado, ICMP, Configurações
+			Permitir solicitação de ECHO de Entrada
 
 Linux
     
