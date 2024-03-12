@@ -11,4 +11,4 @@ Não desabilitar o Firewall, pois é o sistema de proteção para tudo que está
 		Linux
     
 	Negar ICMP...: sudo sysctl net.ipv4.icmp_echo_ignore_all=1
- 		Permitir ICMP: sudo sysctl net.ipv4.icmp_echo_ignore_all=0
+ 	Permitir ICMP: sudo sysctl net.ipv4.icmp_echo_ignore_all=0
