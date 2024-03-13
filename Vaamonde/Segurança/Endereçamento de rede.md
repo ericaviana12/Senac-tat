@@ -62,9 +62,9 @@ Ping - Avaliar a conexão da rede de equipamentos internos (computadores, impres
 	ping 8.8.8.8				ping 8.8.8.8
   	ping 8.8.8.8 -t (intermitente)
 
-Se o tempo de resposta estiver acima de 100/150ms (milisegundos) pode ter ocorrido algum problema com a rede de internet
+Se o tempo de resposta estiver acima de 100/150ms (milissegundos) pode ter ocorrido algum problema com a rede de internet
 
-Uma boa conexão de rede é abaixo de 10ms (milisegundos)
+Uma boa conexão de rede é abaixo de 10ms (milissegundos)
 
 ---
 
