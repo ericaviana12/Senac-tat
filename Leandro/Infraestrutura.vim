@@ -53,7 +53,7 @@ Exemplo: switchswitchport mode trunk
 
 show running-config = para verificar as configurações realizadas / switch#show run
 
-wr = para validar as configurações realizadas / switch#wr
+write ou wr = para validar as configurações realizadas / switch#write
 
 ...
 
