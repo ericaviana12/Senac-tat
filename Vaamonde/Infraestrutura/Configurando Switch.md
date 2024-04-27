@@ -1,4 +1,4 @@
-!Acessando o modo de configuração global de comandos
+	!Acessando o modo de configuração global de comandos
 	configure terminal
   
 	!Configuração do nome do switch
@@ -27,23 +27,23 @@
 	!Acessando a linha console, porta padrão de acesso Out-of-Band (Fora da Banda)
 	line console 0
 		
-		!Forçando fazer login local utilizando usuário e senha locais do switch
-		login local
+	!Forçando fazer login local utilizando usuário e senha locais do switch
+	login local
 		
-		!Habilitando senha de acesso do Tipo-7 Password
-		password vaamonde@pti
+	!Habilitando senha de acesso do Tipo-7 Password
+	password vaamonde@pti
 		
-		!Sincronizando as mensagens de logs na tela
-		logging synchronous
+	!Sincronizando as mensagens de logs na tela
+	logging synchronous
 		
-		!Habilitando o tempo de inatividade de uso do console
-		exec-timeout 5 30
+	!Habilitando o tempo de inatividade de uso do console
+	exec-timeout 5 30
 		
-		!Saindo de todos os níveis e voltando para o modo EXEC Privilegiado
-		end
+	!Saindo de todos os níveis e voltando para o modo EXEC Privilegiado
+	end
 
-!Salvando as configurações da memória RAM para a memória NVRAM
-write
+	!Salvando as configurações da memória RAM para a memória NVRAM
+	write
 	
-!Visualizando as configurações da memória RAM e NVRAM
-show running-config
+	!Visualizando as configurações da memória RAM e NVRAM
+	show running-config
