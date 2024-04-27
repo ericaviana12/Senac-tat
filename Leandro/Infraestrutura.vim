@@ -47,7 +47,7 @@ interface g0/1 = acessa a interface indicada
 Exemplo: switch(config)#interface g0/1
 
 switchport mode trunk = permite que o tráfego de dados das diferentes VLANs
-Exemplo: switchswitchport mode trunk
+Exemplo: switchport mode trunk
 
 ---
 
