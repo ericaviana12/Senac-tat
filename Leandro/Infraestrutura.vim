@@ -46,7 +46,7 @@ Exemplo: switch(config-if-range)#switchport access vlan2
 interface g0/1 = acessa a interface indicada
 Exemplo: switch(config)#interface g0/1
 
-switchport switchport mode trunk = permite que o tráfego de dados das diferentes VLANs
+switchport mode trunk = permite que o tráfego de dados das diferentes VLANs
 Exemplo: switchswitchport mode trunk
 
 ---
