@@ -62,6 +62,6 @@ end (escrito no Terminal) = equivale ao voltar para o início
 CTRL + Z = equivale ao voltar para o início
 CTRL + C = equivale ao voltar para o início
 
-erase startup-config = apagar todas as configurações do equipamento Cisco / switch#erase star
+erase startup-config = apagar todas as configurações do equipamento Cisco / switch#erase startup-config
 
 reload = reiniciar o equipamento / switch#reload
