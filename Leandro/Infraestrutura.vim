@@ -51,7 +51,22 @@ Exemplo: switchport mode trunk
 
 ---
 
+Configurar no modo Etherchannel:
+
+SW-A(config)#int range gigabitEthernet 0/1-2
+SW-A(config-if-range)#channel-group 1 mode active
+
+SW-B(config)#int range gigabitEthernet 0/1-2
+SW-B(config-if-range)#channel-group 1 mode passive
+
+---
+
 show running-config = para verificar as configurações realizadas / switch#show run
+
+show etherchannel
+show interfaces etherchannel
+
+---
 
 write ou wr = para validar as configurações realizadas / switch#write
 
