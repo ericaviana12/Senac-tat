@@ -1,4 +1,4 @@
-Criando rota estática
+Criando rota estática para o router
 
 ---
 
