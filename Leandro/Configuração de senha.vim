@@ -1,4 +1,4 @@
-Senha para acessar o console switch
+Senha para acessar o console Switch
 
 Switch(config)#line con 0
 Switch(config-line)#password SENHA
