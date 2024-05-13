@@ -21,4 +21,4 @@ Switch(config-if)#exit
 Switch(config)#router rip
 Switch(config-router)#no net 192.168.30.0
 Switch(config-router)#no net 30.0.0.0
-Switch(config-router)# "Ctrl+Z"
+Switch(config-router)#"Ctrl+Z"
