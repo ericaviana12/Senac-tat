@@ -18,12 +18,12 @@ Objetivo da aula de hoje: 16/05/2024 CONTINUAÇÃO
 	
 #04_ Serviços Implementados:
 
-	DHCP Server IPv4	OK;
-	DNS Server IPv4		OK;
-	TFTP Server IPv4	OK;
-	HTTP HTTPS Server	OK;
-	FTP Server			OK;
-	SMTP e POP3 Server	OK.
+	DHCP Server IPv4	OK
+	DNS Server IPv4		OK
+	TFTP Server IPv4	OK
+	HTTP HTTPS Server	OK
+	FTP Server		OK
+	SMTP e POP3 Server	OK
 	
 #05_ Configuração dos Switches L2 2960 e L3 3560
 
