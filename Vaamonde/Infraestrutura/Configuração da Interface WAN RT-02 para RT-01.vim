@@ -10,6 +10,8 @@ enable
 
 write
 
-show ip Interface brief (resumo das informações principais para todas as interfaces de rede em um roteador)
+!resumo das informações principais para todas as interfaces de rede em um roteador
+show ip Interface brief
 
-show ip route (exibe a tabela de roteamento armazenada na memória RAM, exibindo as redes conhecidas e o código que indica como a informação foi obtida)
+!exibe a tabela de roteamento armazenada na memória RAM, exibindo as redes conhecidas e o código que indica como a informação foi obtida
+show ip route
