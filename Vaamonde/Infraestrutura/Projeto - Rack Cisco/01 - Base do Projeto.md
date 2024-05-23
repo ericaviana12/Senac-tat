@@ -2,6 +2,7 @@
 | ----- |
 
     Integrantes         Funções
+    
     Bruno Dorea         Roteador
     Erica Viana         Switch
     Gabriel Coutinho    Desktop
