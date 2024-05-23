@@ -1,4 +1,4 @@
-| Projeto de configuração de rack Cisco / Docente responsável - Robson Vaamonde |
+|Projeto de configuração de rack Cisco / Docente responsável - Robson Vaamonde|
 | ----- |
 
 Integrantes e funções
