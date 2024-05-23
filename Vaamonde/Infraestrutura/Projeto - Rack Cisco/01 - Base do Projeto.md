@@ -1,9 +1,9 @@
 |Projeto de configuração de rack Cisco / Docente responsável - Robson Vaamonde|
 | ----- |
 
-    Integrantes e funções
+    Integrantes        Funções
 
-    Bruno Dorea - Roteador
-    Erica Viana - Switch
-    Gabriel Coutinho - Desktop
-    Wesley Souza - Cabeamento
+    Bruno Dorea         Roteador
+    Erica Viana         Switch
+    Gabriel Coutinho    Desktop
+    Wesley Souza        Cabeamento
