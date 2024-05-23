@@ -3,9 +3,11 @@ Docente responsável - Robson Vaamonde
 
 ---
 
-    Grupo 01 - Integrantes e funções
+Grupo 01 - Integrantes e funções
 
-    Bruno Dorea - Router
-    Erica Viana - Switch
-    Gabriel Coutinho - Desktop
-    Wesley Souza - Cabeamento
+<p>Bruno Dorea - Router<br>
+<p>Erica Viana - Switch<br>
+<p>Gabriel Coutinho - Desktop<br>
+<p>Wesley Souza - Cabeamento<br>
+
+---
