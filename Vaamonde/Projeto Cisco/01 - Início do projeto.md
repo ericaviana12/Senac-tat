@@ -1,6 +1,5 @@
 | Projeto de configuração de hack Cisco / Docente responsável - Robson Vaamonde |
 | ----------- |
----
 
 Grupo 01 - Integrantes e funções
 
@@ -8,5 +7,3 @@ Grupo 01 - Integrantes e funções
 <p>Erica Viana - Switch<br>
 <p>Gabriel Coutinho - Desktop<br>
 <p>Wesley Souza - Cabeamento<br>
-
----
