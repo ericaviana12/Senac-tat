@@ -3,8 +3,8 @@
 
     Grupo 01 - Integrantes e funções
 
-    Nome	              Função
+    Nome	            Função
     Bruno Dorea	        Router
     Erica Viana	        Switch
-    Gabriel Coutinho	  Desktop
-    Wesley Souza	      Cabeamento
+    Gabriel Coutinho	Desktop
+    Wesley Souza	    Cabeamento
