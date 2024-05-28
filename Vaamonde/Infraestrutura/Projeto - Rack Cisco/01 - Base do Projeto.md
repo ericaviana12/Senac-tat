@@ -1,6 +1,8 @@
 |Projeto de configuração de rack Cisco / Docente responsável - Robson Vaamonde|
 | ----- |
 
+Base do projeto em: https://github.com/vaamonde/ccna-v7-200-301/tree/master/rackcisco
+
 ---
 
 Primeira etapa: Documentação dos Pontos de Rede do Rack Cisco
