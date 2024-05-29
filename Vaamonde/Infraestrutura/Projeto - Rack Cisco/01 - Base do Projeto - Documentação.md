@@ -16,8 +16,8 @@ Primeira etapa: Documentação dos Pontos de Rede do Rack Cisco
 
 Todos os integrantes serão responsáveis pelos desktops Linux Mint e Windows 10
 
-Os Kits do Rack Cisco foram divididos em: 6 (seis) Grupos:
-Grupo-01: 1 (um) Switch Cisco Catalyst Layer-3 3560 e 1 (um) Router Cisco 2911
+	Os Kits do Rack Cisco foram divididos em: 6 (seis) Grupos:
+	Grupo-01: 1 (um) Switch Cisco Catalyst Layer-3 3560 e 1 (um) Router Cisco 2911
 
 ---
 
