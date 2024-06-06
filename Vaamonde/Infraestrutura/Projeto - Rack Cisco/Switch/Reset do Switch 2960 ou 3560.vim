@@ -14,7 +14,7 @@ Switch>
 
 Switch>
 	
-  !Acessar o modo privilegiado de comandos 
+ 	!Acessar o modo privilegiado de comandos 
 	Switch> enable
 
 	!Remover o banco de dados de VLAN da Flash: 
