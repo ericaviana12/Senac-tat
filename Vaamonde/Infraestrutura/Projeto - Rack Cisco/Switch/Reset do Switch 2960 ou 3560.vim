@@ -44,7 +44,7 @@ i) Reinicializar o Switch: reload
 
 Resumo - Linhas de comando
   	
-	enable
-	delete flash:vlan.dat
-	delete flash:startup-config
-	reload
+enable
+delete flash:vlan.dat
+delete flash:startup-config
+reload
