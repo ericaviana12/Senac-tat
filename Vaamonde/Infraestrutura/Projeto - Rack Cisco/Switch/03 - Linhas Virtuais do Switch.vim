@@ -5,6 +5,7 @@ Configuração das Linhas Virtuais do Switch 3560
 enable
 
 	configure terminal
+
 	line vty 0 4
 		
 		password 123@senac		
