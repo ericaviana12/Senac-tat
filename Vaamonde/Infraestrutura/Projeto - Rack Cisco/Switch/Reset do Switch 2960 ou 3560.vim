@@ -39,12 +39,3 @@ f) Inicializar o sistema: boot
 g) Limpar o Startup-config: erase startup-config
 h) Limpar as VLAN: delete flash:vlan.dat
 i) Reinicializar o Switch: reload
-
----
-
-Resumo - Linhas de comando
-  	
-enable
-delete flash:vlan.dat
-delete flash:startup-config
-reload
