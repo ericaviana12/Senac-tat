@@ -50,10 +50,10 @@ Determinação das Sub-Redes e VLAN de cada Grupo.
 
     Grupo-01:
     Subredes:   172.16.10.0/24   VLAN:  10  -  utilizada no SVI do Switch Layer 3
-    Subredes:   172.16.11.0/24   VLAN:  11  -  utilizada pelo primeiro usuário da rede
-    Subredes:   172.16.12.0/24   VLAN:  12  -  utilizada pelo segundo usuário da rede
-    Subredes:   172.16.13.0/24   VLAN:  13  -  utilizada pelo terceiro usuário da rede
-    Subredes:   172.16.14.0/24   VLAN:  14  -  utilizada pelo quarto usuário da rede
+    Subredes:   172.16.11.0/24   VLAN:  11  -  utilizada pelo primeiro usuário da rede - Bruno
+    Subredes:   172.16.12.0/24   VLAN:  12  -  utilizada pelo segundo usuário da rede - Erica
+    Subredes:   172.16.13.0/24   VLAN:  13  -  utilizada pelo terceiro usuário da rede - Gabriel
+    Subredes:   172.16.14.0/24   VLAN:  14  -  utilizada pelo quarto usuário da rede - Wesley
     Subredes:   172.16.15.0/24   VLAN:  15  -  utilizada pela rede sem-fio
 
 ---
@@ -73,10 +73,10 @@ OBSERVAÇÃO IMPORTANTE: O nome da VLAN deverá ser o Primeiro Nome dos Alunos d
 OBSERVAÇÃO: CASO O GRUPO NÃO TENHA 04 (QUATRO) ALUNOS, DESCONSIDERAR A CRIAÇÃO DAS VLAN'S CORRESPONDENTE, EXEMPLO: GRUPO COM 3 (TRÊS) ALUNOS DESCONSIDERAR A QUARTA VLAN DO GRUPO MAIS MANTER A VLAN DA REDE SEM-FIO COM O SEU NÚMERO E NOME
 
     Grupo-01:
-    Porta: 2    VLAN: 11    Nome: ??Primeiro_Nome_do_Primeiro_Aluno??
-    Porta: 3    VLAN: 12    Nome: ??Primeiro_Nome_do_Segundo_Aluno??
-    Porta: 4    VLAN: 13    Nome: ??Primeiro_Nome_do_Terceiro_Aluno??
-    Porta: 5    VLAN: 14    Nome: ??Primeiro_Nome_do_Quarto_Aluno??
+    Porta: 2    VLAN: 11    Nome: Bruno
+    Porta: 3    VLAN: 12    Nome: Erica
+    Porta: 4    VLAN: 13    Nome: Gabriel
+    Porta: 5    VLAN: 14    Nome: Wesley
     Porta: 6    VLAN: 15    Nome: wifi01
 
 ---
@@ -87,10 +87,10 @@ Determinação do endereço IPv4 de Gateway do Router 2911 utilizadas para Rotea
 
     Grupo-01:   
     Subinterface: 10    IPv4: 172.16.10.254/24
-    Subinterface: 11    IPv4: 172.16.11.254/24
-    Subinterface: 12    IPv4: 172.16.12.254/24
-    Subinterface: 13    IPv4: 172.16.13.254/24
-    Subinterface: 14    IPv4: 172.16.14.254/24
+    Subinterface: 11    IPv4: 172.16.11.254/24 - Bruno
+    Subinterface: 12    IPv4: 172.16.12.254/24 - Erica
+    Subinterface: 13    IPv4: 172.16.13.254/24 - Gabriel
+    Subinterface: 14    IPv4: 172.16.14.254/24 - Wesley
     Subinterface: 15    IPv4: 172.16.15.254/24
 
 ---
@@ -131,10 +131,10 @@ Declaração das Redes OSPF entre os Grupos
 
     Grupo-01
 	172.16.10.0 0.0.0.255    (SVI do Switch Layer 3)
-	172.16.11.0 0.0.0.255    (Primeiro Integrante do Grupo)
-	172.16.12.0 0.0.0.255    (Segundo Integrante do Grupo)
-	172.16.13.0 0.0.0.255    (Terceiro Integrante do Grupo)
-	172.16.14.0 0.0.0.255    (Quarto Integrante do Grupo)
+	172.16.11.0 0.0.0.255    (Bruno)
+	172.16.12.0 0.0.0.255    (Erica)
+	172.16.13.0 0.0.0.255    (Gabriel)
+	172.16.14.0 0.0.0.255    (Wesley)
 	172.16.15.0 0.0.0.255    (Rede Sem-Fio do Grupo)
 	192.168.1.0 0.0.0.3      (Grupo 01 para Grupo 02)
 	192.168.1.20 0.0.0.3     (Grupo 06 para Grupo 01)
