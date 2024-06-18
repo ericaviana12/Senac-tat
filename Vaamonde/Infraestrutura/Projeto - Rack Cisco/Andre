@@ -1,0 +1,29 @@
+enable
+
+	configure terminal
+
+		interface loopback 0
+		description Interface de Loopback para ID do OSPF
+		ip address 6.6.6.6 255.255.255.255
+		no shutdown
+		exit
+
+---
+
+		router ospf 6
+		router-id 6.6.6.6
+		passive-interface gigabitEthernet 0/0
+		passive-interface gigabitEthernet 0/1
+		auto-cost reference-bandwidth 10000
+		log-adjacency-changes detail
+
+		network 172.16.60.0 0.0.0.255 area 0
+		network 172.16.61.0 0.0.0.255 area 0
+		network 172.16.62.0 0.0.0.255 area 0
+		network 172.16.63.0 0.0.0.255 area 0
+		network 172.16.64.0 0.0.0.255 area 0
+		network 172.16.65.0 0.0.0.255 area 0
+		network 192.168.1.20 0.0.0.3 area 0
+		network 192.168.1.16 0.0.0.3 area 0
+
+		end
