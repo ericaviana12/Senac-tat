@@ -1,4 +1,4 @@
-|Material das aulas para criação do conteúdo
+|Material das aulas para criação do conteúdo local
 :---
 
     Instalar Server 2012 R
@@ -11,5 +11,5 @@
     Configurar horário ou máquina que usuário utiliza
     Criar Servidor de arquivos na OU (mapeamento de pasta compartilhada)
 
-    Conferir playlist do canal do professor
-    https://www.youtube.com/playlist?list=PL35Zp8zig6slH9P47TeRBJSZjJuDOBY0e
+ - Conferir playlist do canal do professor
+ - https://www.youtube.com/playlist?list=PL35Zp8zig6slH9P47TeRBJSZjJuDOBY0e
