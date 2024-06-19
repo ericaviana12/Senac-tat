@@ -11,5 +11,5 @@
     Configurar horário ou máquina que usuário utiliza
     Criar Servidor de arquivos na OU (mapeamento de pasta compartilhada)
 
- - Conferir playlist do canal do professor
+ - Conferir playlist do canal do professor @professorramos - Windows 2012 Server
  - https://www.youtube.com/playlist?list=PL35Zp8zig6slH9P47TeRBJSZjJuDOBY0e
