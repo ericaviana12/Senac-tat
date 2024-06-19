@@ -9,6 +9,7 @@
     Criar grupos na OU
     Configurar permissões de grupos e usuários na OU
     Configurar horário ou máquina que usuário utiliza
+    Configurar reprovação de um usuário específico na pasta compartilhada
     Criar Servidor de arquivos na OU (mapeamento de pasta compartilhada)
 
  - Conferir playlist do canal do professor @professorramos - Windows 2012 Server
