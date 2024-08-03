@@ -2,4 +2,4 @@ Instalação
 
 ---
 
-Procedimentos para instalação e configuração da máquina virtual do Ubuntu Server
+Procedimentos para instalação da máquina virtual do Ubuntu Server
