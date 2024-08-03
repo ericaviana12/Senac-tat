@@ -13,5 +13,4 @@ sudo vim /etc/hosts.allow
 
 Usuário padrão do MySQL é o "root"
 
-MySQL - Estamos usando o banco de dados relacional
-NoSQL - Banco de dados "não-relacional"
+MySQL - Estamos usando o banco de dados relacional | NoSQL - Banco de dados "não-relacional"
