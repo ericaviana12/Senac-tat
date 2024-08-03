@@ -13,6 +13,7 @@
     Criar Servidor de arquivos na OU (mapeamento de pasta compartilhada)
     Configurar Pasta Base para cada usuário na OU
     Configurar mapeamento de pasta e enumeraçao de Pasta Base
+    Criação de GPO para as Unidades Organizacionais
 
  - Conferir playlist do canal do professor @professorramos - Windows 2012 Server
  - https://www.youtube.com/playlist?list=PL35Zp8zig6slH9P47TeRBJSZjJuDOBY0e
