@@ -27,5 +27,5 @@ Oracle VirtualBOX Gerenciado (versão 7.x ou superior)
 		Pré-alocar Tamanho Total (F): OFF (Desativado) 
 	<Próximo>
 
-05. Sumário
-<Finalizar>
+	05. Sumário
+	<Finalizar>
