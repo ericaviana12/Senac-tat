@@ -116,7 +116,7 @@ FQDN, algumas vezes denominado nome de domínio absoluto, é um nome de domínio
           #configuração da rota padrão (cuidado com o traço antes do to)
           - to: default
             #configuração do endereço IPv4 do Gateway
-            via: 10.26.44.210
+            via: 10.26.44.1
         #configuração dos servidores de DNS Preferencial e Alternativo
         nameservers:
           #alterar os servidores DNS para o seu cenário
@@ -126,7 +126,7 @@ FQDN, algumas vezes denominado nome de domínio absoluto, é um nome de domínio
           addresses: [8.8.8.8, 8.8.4.4]
           #alterar a pesquisa de domínio para o seu cenário
           #OBSERVAÇÃO: configuração da pesquisa de Domínio dentro de Colchetes
-          search: [pti.intra]
+          search: [erica.intra]
       #fim do bloco de configuração do protocolo Ethernet versão 2
       version: 2
 
