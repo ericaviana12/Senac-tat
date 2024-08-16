@@ -17,9 +17,9 @@ Administração
 
 - 1 -	Criar uma **OU – INFRA**
 - 2 -	Criar os **usuários**:
-  a.	Ana Paula Gomes dos Santos
-  b.	André Luiz Matos Pereira
-  c.	Diego de Oliveira Galdino
+  a-	Ana Paula Gomes dos Santos
+  b-	André Luiz Matos Pereira
+  c-	Diego de Oliveira Galdino
   d.	Felipe dos Santos Aguiar Pereira
   e.	Gilson Rodrigues de Paula
   f.	Higilda Joana Muendo
