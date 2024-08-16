@@ -110,7 +110,7 @@
 
 
 |	Pasta	|	Professores	|	Coordenadores	|	Suporte	|	Diretoria	|	Alunos	|
-|	:--	|	:--	|	:--	|	:--	|	:--	|	:--	|
+|	:--	|	:--:	|	:--:	|	:--:	|	:--:	|	:--:	|
 |	Aulas	|	RW	|	R	|	R	|	x	|	R	|
 |	Provas	|	RW	|	RW	|	R	|	x	|	x	|
 |	Alunos	|	RW	|	R	|	RW	|	x	|	RW	|
