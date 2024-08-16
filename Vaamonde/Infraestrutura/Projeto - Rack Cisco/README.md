@@ -2,4 +2,4 @@ Projeto - rack Cisco
 
 ---
 
-Conteúdo das fases do projeto de configuração do rack Cisco
+Projeto de conclusão da 1º etapa de infraestrutura do curso (módulo 4)
