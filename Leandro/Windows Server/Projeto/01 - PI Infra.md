@@ -1,7 +1,7 @@
-# Projeto de Server REAL NOITE – Parte 1
+## Projeto de Server REAL NOITE – Parte 1
 
 
-## Implantação
+### Implantação
 
 - 1 -	Instalar um Windows 2012 Server Data Center (WMNK4-TBQF7-RXDY7-7RB89-M97JY) em 1 Notebook 
 - 2 -	Instalar uma estação de Trabalho Windows 10 PRO **Note 1**
@@ -13,19 +13,19 @@
 
 ---
 
-Administração
+### Administração
 
-1 -	Criar uma **OU – INFRA**
-2 -	Criar os **usuários**:
-  1.	Ana Paula Gomes dos Santos
-  2.	André Luiz Matos Pereira
-  3.	Diego de Oliveira Galdino
-  4.	Felipe dos Santos Aguiar Pereira
-  5.	Gilson Rodrigues de Paula
-  6.	Higilda Joana Muendo
-  7.	Hugo Rosendo Mota da Silva
-  8.	Jennifer Santos de Oliveira
-  9.	Jessica Gomes Quadro
+#### 1 -	Criar uma **OU – INFRA**
+#### 2 -	Criar os **usuários**:
+  01.	Ana Paula Gomes dos Santos
+  02.	André Luiz Matos Pereira
+  03.	Diego de Oliveira Galdino
+  04.	Felipe dos Santos Aguiar Pereira
+  05.	Gilson Rodrigues de Paula
+  06.	Higilda Joana Muendo
+  07.	Hugo Rosendo Mota da Silva
+  08.	Jennifer Santos de Oliveira
+  09.	Jessica Gomes Quadro
   10.	Joao Henrique Oliveira Vieira Santos
   11.	Jose Davi Alves de Moraes
   12.	Jose Eriberto dos Santos Junior
@@ -43,49 +43,49 @@ Administração
   24.	Raphael Mestre Oliveira
   25.	Ricardo Gomes de Souza
   26.	Weverton Alves da Silva
-- 3 -	Criar o Usuário: ADMINFRA com direitos de Administrador do Domínio.
-- 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários: 
-  a.	Ana Paula Gomes dos Santos
-  b.	André Luiz Matos Pereira
-  c.	Diego de Oliveira Galdino
-- 5 -	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários: 
-  a.	Jessica Gomes Quadro
-  b.	Joao Henrique Oliveira Vieira Santos
-- 6 -	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários: 
-  a.	Mauricio Afonso Sena Silva
-  b.	Meriani Garcia Ferreira Viana
-- 7 -	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário: 
-  a.	Raphael Mestre Oliveira
-- 8 -	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários: 
-  a.	Ricardo Gomes de Souza
-  b.	Weverton Alves da Silva
-  c.	Nayara Silva Onofre de Lima
-  d.	Paulo Ricardo Pereira da Silva
-  e.	Paulo Roberto Luz de Souza
-  f.	Jose Davi Alves de Moraes
-  g.	Jose Eriberto dos Santos Junior
-  h.	Lucas de Oliveira Pinto
-  i.	Lucas Eduardo Silva da Cunha
-  j.	Marcos Rocha Silva
-  k.	Marcos Samuel de Lira Oliveira
-  l.	Mateus de Oliveira Silva
-  m.	Matheus Pinheiro de Oliveira
-  n.	Felipe dos Santos Aguiar Pereira
-  o.	Gilson Rodrigues de Paula
-  p.	Higilda Joana Muendo
-  q.	Hugo Rosendo Mota da Silva
-  r.	Jennifer Santos de Oliveira
-- 9 -	**Todos os Usuários têm Pasta Base** centralizada no Servidor com Segurança.
-- 10 -	**Usuários NÃO visualizem as pastas dos outros na PASTA BASE**
-- 11 -	O usuário **Gilson** loga de **manhã e tarde** de segunda a sexta.
-- 12 -	O usuário **Higilda** loga de **tarde e noite** de segunda a sábado.
-- 13 -	O usuário **Felipe** loga somente na **Estação de Trabalho Note300 e Note400**
-- 14 -	A conta do Usuário **Nayara vence** em **15/12/2024**
-- 15 -	Criar uma **PASTA – Ex-Alunos com um conteúdo de mais de 100 MB** e **Compactar o Conteúdo** com acesso somente dos Coordenadores e Diretoria.
-- 16 -	Criar a Pasta **Projeto** e aplicar **Criptografia** com acesso exclusivo ao Grupo **Coordenadores (e testar com 2 usuários)**.  
-- 17 -	Criar uma **PASTA – Financeiro** onde os **Coordenadores têm RW** com **exceção** da Jessica.
-- 18 -	Criar uma **PASTA – Relatorios** onde os **Professores têm RW** com **exceção** da Ana Paula.
-- 19 -	Criar e Compartilhar as Pastas com as seguintes permissões (administradores CT).
+#### 3 -	Criar o Usuário: ADMINFRA com direitos de Administrador do Domínio.
+#### 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários: 
+  01.	Ana Paula Gomes dos Santos
+  02.	André Luiz Matos Pereira
+  03.	Diego de Oliveira Galdino
+#### 5 -	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários: 
+  01.	Jessica Gomes Quadro
+  02.	Joao Henrique Oliveira Vieira Santos
+#### 6 -	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários: 
+  01.	Mauricio Afonso Sena Silva
+  02.	Meriani Garcia Ferreira Viana
+#### 7 -	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário: 
+  01.	Raphael Mestre Oliveira
+#### 8 -	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários: 
+  01.	Ricardo Gomes de Souza
+  02.	Weverton Alves da Silva
+  03.	Nayara Silva Onofre de Lima
+  04.	Paulo Ricardo Pereira da Silva
+  05.	Paulo Roberto Luz de Souza
+  06.	Jose Davi Alves de Moraes
+  07.	Jose Eriberto dos Santos Junior
+  08.	Lucas de Oliveira Pinto
+  09.	Lucas Eduardo Silva da Cunha
+  10.	Marcos Rocha Silva
+  11.	Marcos Samuel de Lira Oliveira
+  12.	Mateus de Oliveira Silva
+  13.	Matheus Pinheiro de Oliveira
+  14.	Felipe dos Santos Aguiar Pereira
+  15.	Gilson Rodrigues de Paula
+  16.	Higilda Joana Muendo
+  17.	Hugo Rosendo Mota da Silva
+  18.	Jennifer Santos de Oliveira
+#### 9 -	**Todos os Usuários têm Pasta Base** centralizada no Servidor com Segurança.
+#### 10 -	**Usuários NÃO visualizem as pastas dos outros na PASTA BASE**
+#### 11 -	O usuário **Gilson** loga de **manhã e tarde** de segunda a sexta.
+#### 12 -	O usuário **Higilda** loga de **tarde e noite** de segunda a sábado.
+#### 13 -	O usuário **Felipe** loga somente na **Estação de Trabalho Note300 e Note400**
+#### 14 -	A conta do Usuário **Nayara vence** em **15/12/2024**
+#### 15 -	Criar uma **PASTA – Ex-Alunos com um conteúdo de mais de 100 MB** e **Compactar o Conteúdo** com acesso somente dos Coordenadores e Diretoria.
+#### 16 -	Criar a Pasta **Projeto** e aplicar **Criptografia** com acesso exclusivo ao Grupo **Coordenadores (e testar com 2 usuários)**.  
+#### 17 -	Criar uma **PASTA – Financeiro** onde os **Coordenadores têm RW** com **exceção** da Jessica.
+#### 18 -	Criar uma **PASTA – Relatorios** onde os **Professores têm RW** com **exceção** da Ana Paula.
+#### 19 -	Criar e Compartilhar as Pastas com as seguintes permissões (administradores CT).
 
 |	Pasta	|	Professores	|	Coordenadores	|	Suporte	|	Diretoria	|	Alunos	|
 |	:--	|	:--	|	:--	|	:--	|	:--	|	:--	|
