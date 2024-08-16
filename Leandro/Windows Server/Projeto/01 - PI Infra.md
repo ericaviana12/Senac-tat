@@ -18,7 +18,7 @@
 
 ## Administração
 
--- 1 -	Criar uma **OU – INFRA**
+- 1 -	Criar uma **OU – INFRA**
   
 - 2 -	Criar os **usuários**:
 1.	Ana Paula Gomes dos Santos
