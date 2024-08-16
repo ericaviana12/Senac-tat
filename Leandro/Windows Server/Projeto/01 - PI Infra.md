@@ -15,6 +15,7 @@
 - 1 -	Criar uma **OU – INFRA**
 
 - 2 -	Criar os **usuários**:
+  
   1.	Ana Paula Gomes dos Santos
   2.	André Luiz Matos Pereira
   3.	Diego de Oliveira Galdino
@@ -44,23 +45,28 @@
 
 - 3 -	Criar o Usuário: ADMINFRA com direitos de Administrador do Domínio.
 
-- 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários: 
+- 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários:
+  
   1.	Ana Paula Gomes dos Santos
   2.	André Luiz Matos Pereira
   3.	Diego de Oliveira Galdino
 
-- 5 -	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários: 
+- 5 -	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários:
+  
   1.	Jessica Gomes Quadro
   2.	Joao Henrique Oliveira Vieira Santos
 
-- 6 -	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários: 
+- 6 -	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários:
+  
   1.	Mauricio Afonso Sena Silva
   2.	Meriani Garcia Ferreira Viana
 
-- 7 -	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário: 
+- 7 -	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário:
+  
   1.	Raphael Mestre Oliveira
 
-- 8 -	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários: 
+- 8 -	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários:
+  
   1.	Ricardo Gomes de Souza
   2.	Weverton Alves da Silva
   3.	Nayara Silva Onofre de Lima
