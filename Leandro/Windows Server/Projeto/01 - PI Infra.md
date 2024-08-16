@@ -97,4 +97,3 @@ Projeto de Server REAL NOITE – Parte 1
 |	Softwares	|	x	|	X	|	RW	|	x	|	x	|
 |	Publica	|	RW	|	RW	|	RW	|	RW	|	RW	|
 |	Turmas	|	R	|	R	|	R	|	x	|	RW	|
-![image](https://github.com/user-attachments/assets/0e0a025f-8b19-481c-8358-529ef66c24b6)
