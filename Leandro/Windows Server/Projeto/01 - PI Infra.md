@@ -15,15 +15,15 @@
 - 1 -	Criar uma **OU – INFRA**
 
 - 2 -	Criar os **usuários**:
-01.	Ana Paula Gomes dos Santos
-02.	André Luiz Matos Pereira
-03.	Diego de Oliveira Galdino
-04.	Felipe dos Santos Aguiar Pereira
-05.	Gilson Rodrigues de Paula
-06.	Higilda Joana Muendo
-07.	Hugo Rosendo Mota da Silva
-08.	Jennifer Santos de Oliveira
-09.	Jessica Gomes Quadro
+1.	Ana Paula Gomes dos Santos
+2.	André Luiz Matos Pereira
+3.	Diego de Oliveira Galdino
+4.	Felipe dos Santos Aguiar Pereira
+5.	Gilson Rodrigues de Paula
+6.	Higilda Joana Muendo
+7.	Hugo Rosendo Mota da Silva
+8.	Jennifer Santos de Oliveira
+9.	Jessica Gomes Quadro
 10.	Joao Henrique Oliveira Vieira Santos
 11.	Jose Davi Alves de Moraes
 12.	Jose Eriberto dos Santos Junior
