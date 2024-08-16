@@ -1,7 +1,7 @@
-## Projeto de Server REAL NOITE – Parte 1
+# Projeto de Server REAL NOITE – Parte 1
 
 
-### Implantação
+## Implantação
 
 - 1 -	Instalar um Windows 2012 Server Data Center (WMNK4-TBQF7-RXDY7-7RB89-M97JY) em 1 Notebook 
 - 2 -	Instalar uma estação de Trabalho Windows 10 PRO **Note 1**
@@ -13,9 +13,9 @@
 
 ---
 
-### Administração
+## Administração
 
-#### 1 -	Criar uma **OU – INFRA**
+### 1 -	Criar uma **OU – INFRA**
 #### 2 -	Criar os **usuários**:
   01.	Ana Paula Gomes dos Santos
   02.	André Luiz Matos Pereira
