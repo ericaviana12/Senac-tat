@@ -17,64 +17,64 @@ Administração
 
 - 1)	Criar uma **OU – INFRA**
 - 2)	Criar os **usuários**:
-a.	Ana Paula Gomes dos Santos
-b.	André Luiz Matos Pereira
-c.	Diego de Oliveira Galdino
-d.	Felipe dos Santos Aguiar Pereira
-e.	Gilson Rodrigues de Paula
-f.	Higilda Joana Muendo
-g.	Hugo Rosendo Mota da Silva
-h.	Jennifer Santos de Oliveira
-i.	Jessica Gomes Quadro
-j.	Joao Henrique Oliveira Vieira Santos
-k.	Jose Davi Alves de Moraes
-l.	Jose Eriberto dos Santos Junior
-m.	Lucas de Oliveira Pinto
-n.	Lucas Eduardo Silva da Cunha
-o.	Marcos Rocha Silva
-p.	Marcos Samuel de Lira Oliveira
-q.	Mateus de Oliveira Silva
-r.	Matheus Pinheiro de Oliveira
-s.	Mauricio Afonso Sena Silva
-t.	Meriani Garcia Ferreira Viana
-u.	Nayara Silva Onofre de Lima
-v.	Paulo Ricardo Pereira da Silva
-w.	Paulo Roberto Luz de Souza
-x.	Raphael Mestre Oliveira
-y.	Ricardo Gomes de Souza
-z.	Weverton Alves da Silva
+  a.	Ana Paula Gomes dos Santos
+  b.	André Luiz Matos Pereira
+  c.	Diego de Oliveira Galdino
+  d.	Felipe dos Santos Aguiar Pereira
+  e.	Gilson Rodrigues de Paula
+  f.	Higilda Joana Muendo
+  g.	Hugo Rosendo Mota da Silva
+  h.	Jennifer Santos de Oliveira
+  i.	Jessica Gomes Quadro
+  j.	Joao Henrique Oliveira Vieira Santos
+  k.	Jose Davi Alves de Moraes
+  l.	Jose Eriberto dos Santos Junior
+  m.	Lucas de Oliveira Pinto
+  n.	Lucas Eduardo Silva da Cunha
+  o.	Marcos Rocha Silva
+  p.	Marcos Samuel de Lira Oliveira
+  q.	Mateus de Oliveira Silva
+  r.	Matheus Pinheiro de Oliveira
+  s.	Mauricio Afonso Sena Silva
+  t.	Meriani Garcia Ferreira Viana
+  u.	Nayara Silva Onofre de Lima
+  v.	Paulo Ricardo Pereira da Silva
+  w.	Paulo Roberto Luz de Souza
+  x.	Raphael Mestre Oliveira
+  y.	Ricardo Gomes de Souza
+  z.	Weverton Alves da Silva
 - 3)	Criar o Usuário: ADMINFRA com direitos de Administrador do Domínio.
 - 4)	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários: 
-a.	Ana Paula Gomes dos Santos
-b.	André Luiz Matos Pereira
-c.	Diego de Oliveira Galdino
+  a.	Ana Paula Gomes dos Santos
+  b.	André Luiz Matos Pereira
+  c.	Diego de Oliveira Galdino
 - 5)	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários: 
-a.	Jessica Gomes Quadro
-b.	Joao Henrique Oliveira Vieira Santos
+  a.	Jessica Gomes Quadro
+  b.	Joao Henrique Oliveira Vieira Santos
 - 6)	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários: 
-a.	Mauricio Afonso Sena Silva
-b.	Meriani Garcia Ferreira Viana
+  a.	Mauricio Afonso Sena Silva
+  b.	Meriani Garcia Ferreira Viana
 - 7)	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário: 
-a.	Raphael Mestre Oliveira
+  a.	Raphael Mestre Oliveira
 - 8)	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários: 
-a.	Ricardo Gomes de Souza
-b.	Weverton Alves da Silva
-c.	Nayara Silva Onofre de Lima
-d.	Paulo Ricardo Pereira da Silva
-e.	Paulo Roberto Luz de Souza
-f.	Jose Davi Alves de Moraes
-g.	Jose Eriberto dos Santos Junior
-h.	Lucas de Oliveira Pinto
-i.	Lucas Eduardo Silva da Cunha
-j.	Marcos Rocha Silva
-k.	Marcos Samuel de Lira Oliveira
-l.	Mateus de Oliveira Silva
-m.	Matheus Pinheiro de Oliveira
-n.	Felipe dos Santos Aguiar Pereira
-o.	Gilson Rodrigues de Paula
-p.	Higilda Joana Muendo
-q.	Hugo Rosendo Mota da Silva
-r.	Jennifer Santos de Oliveira
+  a.	Ricardo Gomes de Souza
+  b.	Weverton Alves da Silva
+  c.	Nayara Silva Onofre de Lima
+  d.	Paulo Ricardo Pereira da Silva
+  e.	Paulo Roberto Luz de Souza
+  f.	Jose Davi Alves de Moraes
+  g.	Jose Eriberto dos Santos Junior
+  h.	Lucas de Oliveira Pinto
+  i.	Lucas Eduardo Silva da Cunha
+  j.	Marcos Rocha Silva
+  k.	Marcos Samuel de Lira Oliveira
+  l.	Mateus de Oliveira Silva
+  m.	Matheus Pinheiro de Oliveira
+  n.	Felipe dos Santos Aguiar Pereira
+  o.	Gilson Rodrigues de Paula
+  p.	Higilda Joana Muendo
+  q.	Hugo Rosendo Mota da Silva
+  r.	Jennifer Santos de Oliveira
 - 9)	**Todos os Usuários têm Pasta Base** centralizada no Servidor com Segurança.
 - 10)	**Usuários NÃO visualizem as pastas dos outros na PASTA BASE**
 - 11)	O usuário **Gilson** loga de **manhã e tarde** de segunda a sexta.
