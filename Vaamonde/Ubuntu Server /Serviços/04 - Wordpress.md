@@ -14,6 +14,8 @@
     #opções do comando mysql: -u (user), -p (password)
     sudo mysql -u root -p
 
+---
+
     /* Criando o Banco de Dados com o nome Wordpress */
     /* OBSERVAÇÃO IMPORTANTE: ALTERAR O NOME DA BASE DE DADOS CONFORME NECESSIDADE */
     CREATE DATABASE wordpress;
@@ -43,9 +45,13 @@
     /* Saindo do Banco de Dados */
     exit
 
+---
+
     #se logando com o usuário wordpress para testar a conexão com o MySQL Server
     #opções do comando mysql: -u (user), -p (password)
     sudo mysql -u wordpress -p
+
+---
 
     /* visualizando a base de dados do WordPress */
     SHOW DATABASES;
@@ -93,6 +99,8 @@
     sudo vim wp-config.php
     INSERT
 
+---
+
     #alterar os valores das variáveis "define" a partir da linha: 23
 
     #alterar o valor da variável: DB_NAME do nome do banco de dados na linha: 23
@@ -109,6 +117,8 @@
     #copiar o conteúdo do Salt e colocar a partir da linha: 51
     #OBSERVAÇÃO IMPORTANTE: remover as linhas existentes de: 51 até: 58 antes de copiar/colar as
     #novas linhas do Salt, utilizar a opção: dd do Editor de Texto VIM.
+
+---
 
     #salvar e sair do arquivo
     ESC SHIFT :x <Enter>
@@ -179,6 +189,8 @@
     #se logando no MySQL Server com o usuário e senha Wordpress
     #opções do comando mysql: -u (user), -p (password)
     sudo mysql -u wordpress -p
+
+---
 
     /* Utilizar o banco de dados do Wordpress */
     USE wordpress;
