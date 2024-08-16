@@ -1,7 +1,5 @@
 # Projeto de Server REAL NOITE – Parte 1
 
----
-
 ## Implantação
 
 ### 1 -	Instalar um Windows 2012 Server Data Center (WMNK4-TBQF7-RXDY7-7RB89-M97JY) em 1 Notebook 
