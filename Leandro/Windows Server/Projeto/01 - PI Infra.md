@@ -15,76 +15,70 @@
 - 1 -	Criar uma **OU – INFRA**
 
 - 2 -	Criar os **usuários**:
-  
-  1.	Ana Paula Gomes dos Santos
-  2.	André Luiz Matos Pereira
-  3.	Diego de Oliveira Galdino
-  4.	Felipe dos Santos Aguiar Pereira
-  5.	Gilson Rodrigues de Paula
-  6.	Higilda Joana Muendo
-  7.	Hugo Rosendo Mota da Silva
-  8.	Jennifer Santos de Oliveira
-  9.	Jessica Gomes Quadro
-  10.	Joao Henrique Oliveira Vieira Santos
-  11.	Jose Davi Alves de Moraes
-  12.	Jose Eriberto dos Santos Junior
-  13.	Lucas de Oliveira Pinto
-  14.	Lucas Eduardo Silva da Cunha
-  15.	Marcos Rocha Silva
-  16.	Marcos Samuel de Lira Oliveira
-  17.	Mateus de Oliveira Silva
-  18.	Matheus Pinheiro de Oliveira
-  19.	Mauricio Afonso Sena Silva
-  20.	Meriani Garcia Ferreira Viana
-  21.	Nayara Silva Onofre de Lima
-  22.	Paulo Ricardo Pereira da Silva
-  23.	Paulo Roberto Luz de Souza
-  24.	Raphael Mestre Oliveira
-  25.	Ricardo Gomes de Souza
-  26.	Weverton Alves da Silva
+1.	Ana Paula Gomes dos Santos
+2.	André Luiz Matos Pereira
+3.	Diego de Oliveira Galdino
+4.	Felipe dos Santos Aguiar Pereira
+5.	Gilson Rodrigues de Paula
+6.	Higilda Joana Muendo
+7.	Hugo Rosendo Mota da Silva
+8.	Jennifer Santos de Oliveira
+9.	Jessica Gomes Quadro
+10.	Joao Henrique Oliveira Vieira Santos
+11.	Jose Davi Alves de Moraes
+12.	Jose Eriberto dos Santos Junior
+13.	Lucas de Oliveira Pinto
+14.	Lucas Eduardo Silva da Cunha
+15.	Marcos Rocha Silva
+16.	Marcos Samuel de Lira Oliveira
+17.	Mateus de Oliveira Silva
+18.	Matheus Pinheiro de Oliveira
+19.	Mauricio Afonso Sena Silva
+20.	Meriani Garcia Ferreira Viana
+21.	Nayara Silva Onofre de Lima
+22.	Paulo Ricardo Pereira da Silva
+23.	Paulo Roberto Luz de Souza
+24.	Raphael Mestre Oliveira
+25.	Ricardo Gomes de Souza
+26.	Weverton Alves da Silva
 
 - 3 -	Criar o Usuário: ADMINFRA com direitos de Administrador do Domínio.
 
-- 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários:
-  
-  1.	Ana Paula Gomes dos Santos
-  2.	André Luiz Matos Pereira
-  3.	Diego de Oliveira Galdino
+- 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários:  
+1.	Ana Paula Gomes dos Santos
+2.	André Luiz Matos Pereira
+3.	Diego de Oliveira Galdino
 
-- 5 -	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários:
-  
-  1.	Jessica Gomes Quadro
-  2.	Joao Henrique Oliveira Vieira Santos
+- 5 -	Criar o **Grupo Local** Segurança **Coordenadores** e inserir os usuários:  
+1.	Jessica Gomes Quadro
+2.	Joao Henrique Oliveira Vieira Santos
 
-- 6 -	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários:
-  
-  1.	Mauricio Afonso Sena Silva
-  2.	Meriani Garcia Ferreira Viana
+- 6 -	Criar o **Grupo Local** Segurança **Suporte** e inserir os usuários:  
+1.	Mauricio Afonso Sena Silva
+2.	Meriani Garcia Ferreira Viana
 
-- 7 -	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário:
-  
-  1.	Raphael Mestre Oliveira
+- 7 -	Criar o **Grupo Local** Segurança **Diretoria** e inserir o usuário:  
+1.	Raphael Mestre Oliveira
 
-- 8 -	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários:
-  
-  1.	Ricardo Gomes de Souza
-  2.	Weverton Alves da Silva
-  3.	Nayara Silva Onofre de Lima
-  4.	Paulo Ricardo Pereira da Silva
-  5.	Paulo Roberto Luz de Souza
-  6.	Jose Davi Alves de Moraes
-  7.	Jose Eriberto dos Santos Junior
-  8.	Lucas de Oliveira Pinto
-  9.	Lucas Eduardo Silva da Cunha
-  10.	Marcos Rocha Silva
-  11.	Marcos Samuel de Lira Oliveira
-  12.	Mateus de Oliveira Silva
-  13.	Matheus Pinheiro de Oliveira
-  14.	Felipe dos Santos Aguiar Pereira
-  15.	Gilson Rodrigues de Paula
-  16.	Higilda Joana Muendo
-  17.	Hugo Rosendo Mota da Silva
-  18.	Jennifer Santos de Oliveira
+- 8 -	Criar o **Grupo Local** Segurança **Alunos** e inserir os usuários:  
+1.	Ricardo Gomes de Souza
+2.	Weverton Alves da Silva
+3.	Nayara Silva Onofre de Lima
+4.	Paulo Ricardo Pereira da Silva
+5.	Paulo Roberto Luz de Souza
+6.	Jose Davi Alves de Moraes
+7.	Jose Eriberto dos Santos Junior
+8.	Lucas de Oliveira Pinto
+9.	Lucas Eduardo Silva da Cunha
+10.	Marcos Rocha Silva
+11.	Marcos Samuel de Lira Oliveira
+12.	Mateus de Oliveira Silva
+13.	Matheus Pinheiro de Oliveira
+14.	Felipe dos Santos Aguiar Pereira
+15.	Gilson Rodrigues de Paula
+16.	Higilda Joana Muendo
+17.	Hugo Rosendo Mota da Silva
+18.	Jennifer Santos de Oliveira
 
 - 9 -	**Todos os Usuários têm Pasta Base** centralizada no Servidor com Segurança.
 
