@@ -10,8 +10,6 @@
 ### 6 -	Instalar o **DHCP** para distribuir endereçamento para as estações. **192.168.1.100** até **192.168.1.250**, **Gateway 192.168.1.254**
 ### 7 -	Ingressar as **2 Estações de Trabalho no seu Domínio (Note1 e Note2)**.
 
----
-
 ## Administração
 
 ### 1 -	Criar uma **OU – INFRA**
