@@ -17,31 +17,57 @@ Administração
 
 - 1 -	Criar uma **OU – INFRA**
 - 2 -	Criar os **usuários**:
-  a-	Ana Paula Gomes dos Santos
-  b-	André Luiz Matos Pereira
-  c-	Diego de Oliveira Galdino
+  a.	Ana Paula Gomes dos Santos
+  
+  b.	André Luiz Matos Pereira
+
+  c.	Diego de Oliveira Galdino
+
   d.	Felipe dos Santos Aguiar Pereira
+
   e.	Gilson Rodrigues de Paula
+
   f.	Higilda Joana Muendo
+
   g.	Hugo Rosendo Mota da Silva
+
   h.	Jennifer Santos de Oliveira
+
   i.	Jessica Gomes Quadro
+
   j.	Joao Henrique Oliveira Vieira Santos
+
   k.	Jose Davi Alves de Moraes
+
   l.	Jose Eriberto dos Santos Junior
+
   m.	Lucas de Oliveira Pinto
+
+
   n.	Lucas Eduardo Silva da Cunha
+
   o.	Marcos Rocha Silva
+
   p.	Marcos Samuel de Lira Oliveira
+
   q.	Mateus de Oliveira Silva
+
   r.	Matheus Pinheiro de Oliveira
+
   s.	Mauricio Afonso Sena Silva
+
   t.	Meriani Garcia Ferreira Viana
+
   u.	Nayara Silva Onofre de Lima
+
   v.	Paulo Ricardo Pereira da Silva
+
   w.	Paulo Roberto Luz de Souza
+
   x.	Raphael Mestre Oliveira
+
   y.	Ricardo Gomes de Souza
+
   z.	Weverton Alves da Silva
 - 3 -	Criar o Usuário: ADMINFRA com direitos de Administrador do Domínio.
 - 4 -	Criar o **Grupo Local** Segurança **Professores** e inserir os usuários: 
