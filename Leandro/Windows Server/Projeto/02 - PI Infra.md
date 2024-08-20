@@ -2,15 +2,15 @@
 
 ## Administração
 
- - 1 - Criar um Script de Logon para o Grupo Aluno que Mapeia as Pastas: (Aulas, alunos, Publica e Trabalhos)
+ - 1 - Criar um Script de Logon para o Grupo Aluno que Mapeia as Pastas: (Aulas, Alunos, Publica e Trabalhos)
 
- - 2 - Criar um Script de Logon para o Grupo Professores que Mapeia as Pastas: (relatório, Aulas, alunos, Publica, Trabalhos e PROVAS)
+ - 2 - Criar um Script de Logon para o Grupo Professores que Mapeia as Pastas: (Relatório, Aulas, Alunos, Publica, Trabalhos e Provas)
 
- - 3 -	Criar um Script de Logon para o Grupo Coordenadores que Mapeia as Pastas: (financeiro, Projeto, Aulas, alunos, Publica, Provas, Trabalhos, coordenação, exaluno e PROVAS)
+ - 3 -	Criar um Script de Logon para o Grupo Coordenadores que Mapeia as Pastas: (Financeiro, Projeto, Aulas, Alunos, Publica, Provas, Trabalhos, Coordenação, Ex-alunos)
 
- - 4 - Criar um Script de Logon para o Grupo Suporte que Mapeia as Pastas: (Aulas, alunos, Publica, Trabalhos, Suporte e PROVAS)
+ - 4 - Criar um Script de Logon para o Grupo Suporte que Mapeia as Pastas: (Aulas, Alunos, Publica, Trabalhos, Suporte e Provas)
 
- - 5 - Criar um Script de Logon para o Grupo Diretoria que Mapeia as Pastas: (ex-aluno, Diretoria e Publica)
+ - 5 - Criar um Script de Logon para o Grupo Diretoria que Mapeia as Pastas: (Ex-aluno, Diretoria e Publica)
 
  - 6 - Criar um conjunto de GPOs para os Alunos, onde os usuários não podem acessar o MS-DOS, Painel de Controle, Registro, Acesso as Unidades de Disco C: e D:, e tem um papel de parede definido via GPO.
 
@@ -20,9 +20,9 @@
 
  - 9 - Criar uma GPO para o Grupo Suporte onde faça a instalação automatizada de um pacote MSI (Chrome) para as estações de trabalho.
 
- - 10 - Criar uma GPP para Mapear a Impressora HP007, Mapear a Pasta NotasFinais em J: e criar um atalho no Desktop para a Unidade J:
+ - 10 - Criar uma GPP para Mapear a Impressora HP007, Mapear a Pasta "Notas Finais" em J: e criar um atalho no Desktop para a Unidade J:
 
- - 11 - Criar 20 GPOs diferentes das anteriores para aplicar em seu ambiente.
+ - 11 - Criar 20 GPOs diferentes das anteriores para aplicar em seu ambiente de trabalho.
 
  - 12 - Montar um Servidor WEB para um Site www.souadmwindows.com.br
 
@@ -38,7 +38,7 @@
 
  - 18 - Testar a Triagem na Pasta base com um usuário
 
- - 19 - Configurar o RSAT para administrar o Servidor da sua Estação de Trabalho.
+ - 19 - Configurar o RSAT para administrar o Servidor remotamente da sua Estação de Trabalho.
 
  - 20 - Habilitar a Lixeira no AD.
 
