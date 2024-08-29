@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste - Erica Viana</title>
+    <style>
+        .board {
+            display: grid;
+            grid-template-columns: repeat(5, 40px);
+            grid-template-rows: repeat(5, 40px);
+            gap: 2px;
+            margin-top: 20px;
+        }
+
+        .cell {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #d3d3d3;
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+
+        .cell.revealed {
+            background-color: #fff;
+            cursor: default;
+        }
+
+        .cell.mine {
+            background-color: #f00;
+        }
+
+        .cell.flag {
+            background-color: #00f;
+        }
+    </style>
+    <script>
+        const gridSize = 5;
+        const numMines = 5;
+        let board = [];
+        let mines = [];
+        let gameActive = true;
+
+        function initializeBoard() {
+            board = Array(gridSize).fill(null).map(() => Array(gridSize).fill(0));
+            mines = [];
+            gameActive = true;
+
+            // Place mines
+            let placedMines = 0;
+            while (placedMines < numMines) {
+                const row = Math.floor(Math.random() * gridSize);
+                const col = Math.floor(Math.random() * gridSize);
+                if (board[row][col] !== 'M') {
+                    board[row][col] = 'M';
+                    mines.push({ row, col });
+                    placedMines++;
+                }
+            }
+
+            // Calculate numbers
+            for (const { row, col } of mines) {
+                for (let r = row - 1; r <= row + 1; r++) {
+                    for (let c = col - 1; c <= col + 1; c++) {
+                        if (r >= 0 && r < gridSize && c >= 0 && c < gridSize && board[r][c] !== 'M') {
+                            board[r][c]++;
+                        }
+                    }
+                }
+            }
+
+            renderBoard();
+        }
+
+        function renderBoard() {
+            const boardElement = document.getElementById('board');
+            boardElement.innerHTML = '';
+
+            for (let row = 0; row < gridSize; row++) {
+                for (let col = 0; col < gridSize; col++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    cell.dataset.row = row;
+                    cell.dataset.col = col;
+                    cell.addEventListener('click', () => handleCellClick(row, col));
+                    boardElement.appendChild(cell);
+                }
+            }
+        }
+
+        function handleCellClick(row, col) {
+            if (!gameActive) return;
+
+            const cell = document.querySelector(`.cell[data-row='${row}'][data-col='${col}']`);
+            if (cell.classList.contains('revealed')) return;
+
+            if (board[row][col] === 'M') {
+                cell.classList.add('mine');
+                cell.innerText = '💣';
+                gameActive = false;
+                alert('Game Over! Você perdeu.');
+                return;
+            }
+
+            revealCell(row, col);
+        }
+
+        function revealCell(row, col) {
+            const cell = document.querySelector(`.cell[data-row='${row}'][data-col='${col}']`);
+            if (cell.classList.contains('revealed')) return;
+
+            cell.classList.add('revealed');
+            cell.innerText = board[row][col] > 0 ? board[row][col] : '';
+
+            if (board[row][col] === 0) {
+                for (let r = row - 1; r <= row + 1; r++) {
+                    for (let c = col - 1; c <= col + 1; c++) {
+                        if (r >= 0 && r < gridSize && c >= 0 && c < gridSize && !(r === row && c === col)) {
+                            revealCell(r, c);
+                        }
+                    }
+                }
+            }
+        }
+
+        function resetGame() {
+            initializeBoard();
+        }
+
+        window.onload = function() {
+            initializeBoard();
+        }
+    </script>
+</head>
+<body>
+<!-- Erica Viana - Técnico de informática -->
+<h1>Curso de TI 2024 - Aula Leandro Ramos</h1>
+<br>
+<img src="Vinicius.jpg" alt="Mascote Vinicius" title="Mascote Vinicius" />
+<br>
+<br>
+<a href="https://github.com/ericaviana12">GitHub Erica Viana</a>
+
+<p id="dataHora"></p> <!-- Exibirá a data e hora de São Paulo aqui -->
+
+<h2>Enquete: Qual software é melhor?</h2>
+<form id="enquete" onsubmit="contarVotos(event)">
+    <input type="radio" id="windows" name="software" value="Windows" required>
+    <label for="windows">Windows</label><br>
+
+    <input type="radio" id="linux" name="software" value="Linux">
+    <label for="linux">Linux</label><br><br>
+
+    <input type="submit" value="Votar">
+</form>
+
+<h3>Resultados:</h3>
+<p id="resultado"></p> <!-- Resultados serão exibidos aqui -->
+
+<!-- Campo Minado -->
+<h2>Campo Minado</h2>
+<div id="board" class="board"></div>
+<br>
+<button onclick="resetGame()">Reiniciar Jogo</button>
+
+<ol>
+    <li>Infraestrutura</li>
+    <li>Hardware</li>
+    <li>Windows</li>
+    <li>Linux</li>
+    <li>Desenvolvimento</li>
+    <li>Programação</li>
+</ol>
+</body>
+</html>
