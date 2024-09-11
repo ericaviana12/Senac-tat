@@ -3,7 +3,7 @@
 #02_ Instalar a Extensão Spell PT-BR
 
 #03_ Clonar o seu repositorio do GitHub
-  Comando: git clone https://github.com/ericaviana12/senac-tat
+  Comando: git clone https://github.com/ericaviana12/Senac-tat
 
 -----
 
