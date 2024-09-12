@@ -16,6 +16,15 @@ Verificar se constam atualizações no clone Comando: git pull
 
 Atualizar/adicionar as mudanças feitas no clone Comando: git add .
 
-Confirmar atualizações/mudanças feitas no clone Comando: git commit -m "Atualizacao"
+Confirmar atualizações/mudanças feitas no clone (Documentar as alterações) Comando: git commit -m "Atualizacao"
 
 Integração do clone no diretório local (JavaScript) ao GitHub Comando: git push (após clicar solicita autenticação do login)
+
+---
+
+Gerar token GitHub
+
+1) Settings
+2) Developer Settings
+3) Token classic
+4) Gerar o token selecionando tudo, guardar o token
