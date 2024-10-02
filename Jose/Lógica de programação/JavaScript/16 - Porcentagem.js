@@ -13,6 +13,7 @@ console.clear()
 
 // Exibir o texto entre "" (aspas)
 console.log("Cálculo de porcentagem de um valor")
+console.log("x% de y = valor")
 
 // Entrada - Atribuir valores as variáveis
 x = Number(input.question("Digite o valor de x: "))
