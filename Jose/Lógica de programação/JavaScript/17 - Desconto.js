@@ -7,20 +7,20 @@
 const input = require('readline-sync')
 
 // Variáveis
-let precoOriginal, percentualDesconto, valorFinal
+let valorOriginal, percentualDesconto, valorFinal
 
 console.clear()
 
 // Exibir o texto entre "" (aspas)
 console.log("Cálculo de desconto em uma compra")
-console.log("Preço final = Preço original - (Percentual de desconto% do preço original)")
+console.log("Valor final = Valor original - (Percentual de desconto% do valor original)")
 
 // Entrada - Atribuir valores às variáveis
-precoOriginal = Number(input.question("Digite o preço original do produto: R$ "))
+valorOriginal = Number(input.question("Digite o valor original do produto: R$ "))
 percentualDesconto = Number(input.question("Digite o percentual de desconto (%): "))
 
 // Processamento - Fórmula para cálculo do desconto
-valorFinal = precoOriginal - ((precoOriginal * percentualDesconto) / 100)
+valorFinal = valorOriginal - ((valorOriginal * percentualDesconto) / 100)
 
 // Saída - Resultado do processamento
 console.log(`O valor final do produto com ${percentualDesconto}% de desconto é: R$ ${valorFinal.toFixed(2)}`)
