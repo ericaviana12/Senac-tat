@@ -19,7 +19,7 @@ console.log("Valor final = Valor original - (Percentual de desconto% do valor or
 valorOriginal = Number(input.question("Digite o valor original do produto: R$ "))
 percentualDesconto = Number(input.question("Digite o percentual de desconto (%): "))
 
-// Processamento - Fórmula para cálculo do desconto
+// Processamento - Fórmula para cálculo do código
 valorFinal = valorOriginal - ((valorOriginal * percentualDesconto) / 100)
 
 // Saída - Resultado do processamento
