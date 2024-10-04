@@ -19,7 +19,7 @@ console.log("troco = valorPago - valorCompra")
 valorCompra = Number(input.question("Qual o valor da compra?"))
 valorPago = Number(input.question("Qual o valor da pago?"))
 
-// Processamento - Fórmula para cálculo do desconto
+// Processamento - Fórmula para cálculo do código
 troco = valorPago - valorCompra
 
 // Saída - Resultado do processamento
