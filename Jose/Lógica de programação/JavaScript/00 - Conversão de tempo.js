@@ -20,7 +20,6 @@ minutos = Number(input.question("Digite o tempo em minutos: "))
 // Processamento - Fórmula para cálculo do código
 horas = Math.floor(minutos / 60) // Cálculo das horas
 // Math.floor() - Arredonda para baixo o resultado da divisão de minutos por 60, obtendo o número total de horas.
-
 minutosRestantes = minutos % 60 // Cálculo dos minutos restantes
 // O operador % (módulo) é utilizado para obter o restante da divisão de minutos por 60, que representa os minutos que não completam uma hora.
 
