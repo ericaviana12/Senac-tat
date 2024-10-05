@@ -1,5 +1,5 @@
 /**
- * Cálculo de troco de uma compra
+ * Cálculo do troco
  * @author Erica Viana
  */
 
