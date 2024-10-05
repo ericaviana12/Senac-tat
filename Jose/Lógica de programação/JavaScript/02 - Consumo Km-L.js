@@ -1,5 +1,5 @@
 /**
- * Cálculo do consumo de litros de combustível por km percorrido
+ * Cálculo do consumo de combustível
  * @author Erica Viana
  */
 
