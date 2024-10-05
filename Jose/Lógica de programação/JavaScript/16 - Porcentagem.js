@@ -1,5 +1,5 @@
 /**
- * Cálculo de porcentagem
+ * Cálculo da porcentagem de um valor
  * @author Erica Viana
  */
 
