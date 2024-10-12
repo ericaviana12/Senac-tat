@@ -3,7 +3,7 @@
   @author Erica Viana
 */
 
-#include <HCSR04.h> // // Uso de biblioteca "HCSR04.h" para medir a distância usando o sensor
+#include <HCSR04.h> // Uso de biblioteca "HCSR04.h" para medir a distância usando o sensor
 UltraSonicDistanceSensor sensor(13, 12);  // Conexão Trig (13) e Echo (12) - Esses pinos são utilizados pelo sensor para medir a distância
 float distancia; // Float - Declaração da variável "distancia" e exibe a medida de distância em centímetros
 
