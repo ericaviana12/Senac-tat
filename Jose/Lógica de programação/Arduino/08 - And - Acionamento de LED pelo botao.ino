@@ -13,7 +13,7 @@ void setup() {
 }
 
 void loop() {
-  botao1 = digitalRead(4);  // 0 -> botao pressionado | 1 -> boto nao pressionado
+  botao1 = digitalRead(4);  // 0 -> botao pressionado | 1 -> botao nao pressionado
   Serial.println(botao1);
   if (botao1 == 0) {
     digitalWrite(13, HIGH); // Acender o LED caso o botão esteja acionado
