@@ -21,4 +21,4 @@ peso = Number(input.question("Digite o peso (em kg): "))
 consumo = peso * 0.035
 
 // Saída - Resultado do processamento
-console.log(`Consumo diário de água: ${consumo.toFixed(2)} litros`)
+console.log(`Consumo diário de água: ${consumo.toFixed(3)} litros`)
