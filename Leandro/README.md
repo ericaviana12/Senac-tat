@@ -1,6 +1,6 @@
 # Senac-tat - Leandro
 
-Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé, orientadas pelo professor Leandro.
+Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé, orientadas pelo professor Leandro Ramos.
 
 ## Descrição
 
