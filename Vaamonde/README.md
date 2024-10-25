@@ -1,6 +1,6 @@
 # Senac-tat - Vaamonde
 
-Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé, orientadas pelo professor Vaamonde.
+Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé, orientadas pelo professor Robson Vaamonde.
 
 ## Descrição
 
