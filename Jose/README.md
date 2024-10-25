@@ -1,6 +1,6 @@
 # Senac-tat - José
 
-Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé, orientadas pelo professor José.
+Repositório de conteúdo das aulas do curso Técnico de Informática - Senac Tatuapé, orientadas pelo professor José de Assis.
 
 ## Descrição
 
