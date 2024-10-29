@@ -37,11 +37,11 @@ Salvar texto no arquivo pelo VSCode: CTRL + S
 
 Integração do VSCode com GitHub
 
+Verificar se constam atualizações do site para o clone
+  Comando: git pull
+
 Verificar status e mudanças do clone no VSCode
   Comando: git status
-
-Verificar se constam atualizações no clone
-  Comando: git pull
 
 Atualizar/adicionar as mudanças feitas no clone
   Comando: git add .
