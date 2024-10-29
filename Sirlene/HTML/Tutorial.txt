@@ -97,6 +97,8 @@ Deixar aplicado a opção de salvamento automático
 
 ALT + Z - quebra a linha do Virtual Studio Code
 
+ALT + SHIFT + F - alinha o código no Virtual Studio Code
+
 1em - equivale a 16 pixels
 
 Quando uma tag estiver com a escrita em vermelho, significa que é obsoleta
