@@ -10,9 +10,9 @@ Clonar o seu repositorio do GitHub Comando: git clone https://github.com/ericavi
 
 Integração do VSCode com GitHub
 
-Verificar status e mudanças do clone no VSCode Comando: git status
+Verificar se constam atualizações no site do GitHub para o clone Comando: git pull
 
-Verificar se constam atualizações no clone Comando: git pull
+Verificar status e mudanças do clone no VSCode Comando: git status
 
 Atualizar/adicionar as mudanças feitas no clone Comando: git add .
 
