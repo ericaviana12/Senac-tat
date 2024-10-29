@@ -103,3 +103,5 @@ Quando uma tag estiver com a escrita em vermelho, significa que é obsoleta
 Exemplo: <center> </center> - tag obsoleta
 
 Não é uma boa prática diminuir a imagem pelo CSS, pois o gasto de internet para ajustar é maior
+
+<br> - Quebra de linha
