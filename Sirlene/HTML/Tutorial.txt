@@ -107,3 +107,14 @@ Exemplo: <center> </center> - tag obsoleta
 Não é uma boa prática diminuir a imagem pelo CSS, pois o gasto de internet para ajustar é maior
 
 <br> - Quebra de linha
+
+---
+
+Identificação de itens no HTML:
+
+Classe pode ser usada em tag diferente
+Exemplo: #menu
+ID só pode ser usado na mesma tag
+Exemplo: .rodape
+
+Pelas boas práticas, só é feita a chamada pela identificação de cada um
