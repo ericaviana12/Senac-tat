@@ -2,4 +2,4 @@ Formulario
 
 ---
 
-Conteúdo da aula explicativa sobre Formularios no arquivo HTML
+Conteúdo da aula explicativa sobre formulários no arquivo HTML
