@@ -8,9 +8,9 @@ Este diretório contém materiais e exercícios focados em infraestrutura de red
 
 ## Estrutura do Diretório
 
-- [`Linux basics`]: Conceitos fundamentais de administração e configuração de servidores Linux, com foco no Ubuntu Server.
-- [`Segurança de Redes`]: Materiais sobre práticas de segurança em redes, incluindo configuração de firewalls e segurança de dados.
-- [`Hack Cisco`]: Projetos e exercícios relacionados ao projeto Hack Cisco, abordando aspectos de redes e segurança.
+- **Linux basics**: Conceitos fundamentais de administração e configuração de servidores Linux, com foco no Ubuntu Server.
+- **Segurança de Redes**: Materiais sobre práticas de segurança em redes, incluindo configuração de firewalls e segurança de dados.
+- **Hack Cisco**: Projetos e exercícios relacionados ao projeto Hack Cisco, abordando aspectos de redes e segurança.
 
 ## Como Contribuir
 
