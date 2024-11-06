@@ -119,3 +119,28 @@ h1 {
     padding: 20px; /* Margem interna - do topo para o rodape da div atual */
     text-align: center;
 }
+
+form {
+    width: 1000px;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 0 auto;
+}
+
+input, textarea, select {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+legend {
+    font-family: var(--fonte-titulo);
+    color: var(--cor4);
+    font-size: 1.5em;
+}
+
+fieldset {
+    border: 1px solid var(--cor1);
+    padding: 15px;
+    
+}
