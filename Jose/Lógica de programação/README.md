@@ -4,7 +4,7 @@ Materiais sobre lógica de programação do curso Técnico de Informática - Sen
 
 ## Descrição
 
-Este diretório contém conteúdos introdutórios e avançados de lógica de programação, incluindo:
+Esse diretório contém conteúdos introdutórios e avançados de lógica de programação, incluindo:
 
 - Estruturas básicas de algoritmos
 - Tipos de dados e variáveis
