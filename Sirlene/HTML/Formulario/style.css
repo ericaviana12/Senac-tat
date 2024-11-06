@@ -53,7 +53,7 @@ body {
     display: block;
     position: absolute;
     width: 400px;
-    left: 800px;
+    left: 950px;
     top: 20px;
 }
 
@@ -81,4 +81,41 @@ body {
 .menu li a:hover {
     text-decoration: underline;
     color: #2fa866;
+}
+
+.banner_anime{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    margin: 0;
+}
+
+#anime1, #anime2{
+    max-width: 1200px;
+    height: auto;
+}
+
+.banner_anime img {
+    position: absolute;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear; /* ease, linear, ease-in, ease-out, aliviar-in-out, cubico-bezier */
+}
+
+#anime1, #anime2:hover {
+    opacity: 1;
+}
+
+#anime1:hover, #anime2 {
+    opacity: 0;
+}
+
+h1 {
+    font-family: titulo;
+    font-size: 2em;
+    margin: 30px 0px; /* Margem externa - de uma div para outra div */
+    background: #3ddc84;
+    padding: 20px; /* Margem interna - do topo para o rodape da div atual */
+    text-align: center;
 }
