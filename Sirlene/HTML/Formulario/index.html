@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,46 +44,52 @@
                 <legend>Identificação do usuário</legend>
                 <p>
                     <label for="cnome">Nome: </label> <!-- o "for" deve ser o mesmo nome que está no "id" do input -->
-                    <input type="text" name="nome" id="cnome" size="30" maxlength="50" placeholder="Nome completo" required autofocus> <!-- "required torna o preenchimento obrigatório" -->
+                    <input type="text" name="nome" id="cnome" size="30" maxlength="50" placeholder="Nome completo"
+                        required autofocus> <!-- "required torna o preenchimento obrigatório" -->
                 </p>
                 <p>
-                    <label for="cemail">E-mail:</label> <!-- O "label" com input do tipo email exige que tenha um @, mas não significa que seja um e-mail válido -->
-                    <input type="email" name="email" id="cemail" size="30" maxlength="50" placeholder="Digite seu e-mail" required>
+                    <label for="cemail">E-mail:</label>
+                    <!-- O "label" com input do tipo email exige que tenha um @, mas não significa que seja um e-mail válido -->
+                    <input type="email" name="email" id="cemail" size="30" maxlength="50"
+                        placeholder="Digite seu e-mail" required>
                 </p>
                 <p>
                     <label for="csenha">Senha:</label>
-                    <input type="password" name="senha" id="csenha" size="8" maxlength="8" placeholder="8 dígitos" required>
+                    <input type="password" name="senha" id="csenha" size="8" maxlength="8" placeholder="8 dígitos"
+                        required>
                 </p>
 
-            <fieldset class="sexo">
-                <legend>Sexo</legend>
-                <p>
-                    <input type="radio" name="sexo" id="cfem"> <!-- O name="sexo" deve ser igual em todos os input type="radio" para habilitar a múltipla escolha limitando em uma única resposta -->
-                    <label for="cfem">Feminino</label>
-                </p>
-                <p>
-                    <input type="radio" name="sexo" id="cmasc">
-                    <label for="cmasc">Masculino</label>
-                </p>
-                <p>
-                    <input type="radio" name="sexo" id="coutros">
-                    <label for="coutros">Outros</label>
-                </p>
-            </fieldset>
+                <fieldset class="sexo">
+                    <legend>Sexo</legend>
+                    <p>
+                        <input type="radio" name="sexo" id="cfem">
+                        <!-- O name="sexo" deve ser igual em todos os input type="radio" para habilitar a múltipla escolha limitando em uma única resposta -->
+                        <label for="cfem">Feminino</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="sexo" id="cmasc">
+                        <label for="cmasc">Masculino</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="sexo" id="coutros">
+                        <label for="coutros">Outros</label>
+                    </p>
+                </fieldset>
 
-           
+
                 <p>
                     <label for="cnasc">Data de nascimento:</label>
                     <input type="date" name="nasc" id="cnasc">
                 </p>
 
             </fieldset>
-            
+
             <fieldset>
                 <legend>Endereço do usuário</legend>
                 <p>
                     <label for="crua">Logradouro:</label>
-                    <input type="text" name="rua" id="crua" size="50" maxlength="50" placeholder="Rua, Av., Travessa, ..." required>
+                    <input type="text" name="rua" id="crua" size="50" maxlength="50"
+                        placeholder="Rua, Av., Travessa, ..." required>
                 </p>
                 <p>
                     <label for="cnum">Número</label>
@@ -115,16 +122,17 @@
                 <legend>Mensagem do usuário</legend>
                 <p>
                     <label for="curg">Grau de urgência:</label>
-                    Mín <input type="range" name="urg" id="curg" min="0" max="10" step="1"> Máx 
+                    Mín <input type="range" name="urg" id="curg" min="0" max="10" step="1"> Máx
                 </p>
                 <p>
                     <label for="cmsg">Mensagem:</label>
                 </p>
                 <p>
-                    <textarea name="msg" id="cmsg" cols="70" rows="7" placeholder="Digite sua mensagem aqui ..." required></textarea>
+                    <textarea name="msg" id="cmsg" cols="70" rows="7" placeholder="Digite sua mensagem aqui ..."
+                        required></textarea>
                 </p>
             </fieldset>
-            
+
             <fieldset id="pedido">
                 <legend>Quero um console</legend>
                 <p>
@@ -163,12 +171,16 @@
                 Somente para fins educativos.
             </p>
             <p>
-                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Rede social Instagram"></a>
-                <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png" alt=""Rede social Facebook></a>
-                <a href="https://x.com/?lang=pt-br" target="_blank"><img src="img/x_twitter.png" alt="Rede social Twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"
+                        alt="Rede social Instagram"></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" Rede social
+                        Facebook></a>
+                <a href="https://x.com/?lang=pt-br" target="_blank"><img src="img/x_twitter.png"
+                        alt="Rede social Twitter"></a>
             </p>
         </footer>
 
     </div>
 </body>
+
 </html>
