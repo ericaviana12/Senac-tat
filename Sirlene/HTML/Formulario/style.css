@@ -140,7 +140,31 @@ legend {
 }
 
 fieldset {
-    border: 1px solid var(--cor1);
+    border: 1px solid var(--cor5);
     padding: 15px;
-    
+    margin-bottom: 30px;
+}
+
+.sexo {
+    width: 250px;
+}
+
+#contato p {
+    padding: 5px;
+}
+
+.usuario {
+    background: url(img/icontato.png) no-repeat 95% 95%;
+}
+
+.endereco {
+    background: url(img/iendereco.png) no-repeat 95% 95%;
+}
+
+.mensagem {
+    background: url(img/imensagem.png) no-repeat 95% 95%;
+}
+
+.pedido {
+    background: url(img/ipgto.png) no-repeat 95% 95%;
 }
