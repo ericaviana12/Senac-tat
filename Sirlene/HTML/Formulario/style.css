@@ -189,6 +189,7 @@ fieldset {
 #rodape {
     border-top: 2px solid var(--cor5);
     text-align: center;
+    clear: both;
 }
 
 #rodape p {
@@ -224,4 +225,29 @@ fieldset {
     position: relative;
     left: 573px;
     top: 490px;
+}
+
+/* ______________________________ */
+/* Página fotos */
+
+.galeria1 p {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
+    padding: 5px 15px;
+}
+
+.album_fotos {
+    width: 780px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 50px;
+}
+
+.album_fotos li {
+    border: 3px solid var(--cor3);
+    width: 200px;
+    height: 200px;
+    background: var(--cor6);
+    margin: 10px;
+    float: left;
 }
