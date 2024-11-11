@@ -83,7 +83,7 @@ body {
     color: #2fa866;
 }
 
-.banner_anime{
+.banner_anime {
     position: relative;
     display: inline-block;
     width: 100%;
@@ -91,7 +91,8 @@ body {
     margin: 0;
 }
 
-#anime1, #anime2{
+#anime1,
+#anime2 {
     max-width: 1200px;
     height: auto;
 }
@@ -100,23 +101,28 @@ body {
     position: absolute;
     transition-property: opacity;
     transition-duration: 1s;
-    transition-timing-function: linear; /* ease, linear, ease-in, ease-out, aliviar-in-out, cubico-bezier */
+    transition-timing-function: linear;
+    /* ease, linear, ease-in, ease-out, aliviar-in-out, cubico-bezier */
 }
 
-#anime1, #anime2:hover {
+#anime1,
+#anime2:hover {
     opacity: 1;
 }
 
-#anime1:hover, #anime2 {
+#anime1:hover,
+#anime2 {
     opacity: 0;
 }
 
 h1 {
     font-family: titulo;
     font-size: 2em;
-    margin: 30px 0px; /* Margem externa - de uma div para outra div */
+    margin: 30px 0px;
+    /* Margem externa - de uma div para outra div */
     background: #3ddc84;
-    padding: 20px; /* Margem interna - do topo para o rodape da div atual */
+    padding: 20px;
+    /* Margem interna - do topo para o rodape da div atual */
     text-align: center;
 }
 
@@ -127,7 +133,9 @@ form {
     margin: 0 auto;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     border-radius: 5px;
     padding: 5px;
     font-size: 0.9em;
@@ -167,4 +175,53 @@ fieldset {
 
 .pedido {
     background: url(img/ipgto.png) no-repeat 95% 95%;
+}
+
+.btn {
+    background: var(--cor5);
+    color: var(--cor1);
+    font-size: 1.1em;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 0px 5px 15px 5px;
+}
+
+#rodape {
+    border-top: 2px solid var(--cor5);
+    text-align: center;
+}
+
+#rodape p {
+    margin: 10px 0px;
+    font-size: 1.2em;
+    font-family: var(--fonte-titulo);
+}
+
+#rodape a {
+    text-decoration: none;
+}
+
+/* ______________________________ */
+/* Página mídias */
+
+.radio_tv {
+    background: url(img/radio-tv.png) no-repeat;
+    width: 75%;
+    height: 580px;
+    margin: 5px auto;
+}
+
+#filme {
+    width: 455px;
+    height: 350px;
+    left: 79px;
+    display: block;
+    position: relative;
+}
+
+#musica {
+    display: block;
+    position: relative;
+    left: 573px;
+    top: 490px;
 }
