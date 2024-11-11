@@ -238,6 +238,7 @@ fieldset {
 
 .album_fotos {
     width: 780px;
+    height: 550px;
     margin: 0 auto;
     list-style: none;
     padding: 50px;
