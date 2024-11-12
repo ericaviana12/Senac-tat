@@ -251,6 +251,7 @@ fieldset {
     background: var(--cor6);
     margin: 10px;
     float: left;
+    transition: all .4s ease-in;
 }
 
 .galeria {
