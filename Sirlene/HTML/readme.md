@@ -1,6 +1,6 @@
 # HTML
 
-Conteúdos sobre desenvolvimento web e HTML no curso Técnico de Informática - Senac Tatuapé.
+Conteúdos sobre desenvolvimento web - HTML e CSS no curso Técnico de Informática - Senac Tatuapé.
 
 ## Descrição
 
