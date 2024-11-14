@@ -29,6 +29,11 @@ body {
     background: #929292;
 }
 
+/* Layout */
+.container {
+    display: flex;
+}
+
 /* Smartphone portrait (em pé) */
 
 /* Smartphone landscape (deitado) */
