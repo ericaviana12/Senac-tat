@@ -8,7 +8,7 @@ Este repositório contém materiais e projetos das aulas da professora Sirlene, 
 
 ## Estrutura do Repositório
 
-- **HTML e CSS**: Conteúdos e exercícios para desenvolvimento web, abrangendo estrutura e estilo de páginas.
+- **HTML5 e CSS3**: Conteúdos e exercícios para desenvolvimento web, abrangendo estrutura e estilo de páginas.
 - **Photoshop e Design**: Exemplos práticos e projetos para criação de layouts e design de interfaces.
 
 ## Como Contribuir
