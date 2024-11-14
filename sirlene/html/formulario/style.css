@@ -1,0 +1,339 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: titulo;
+    src: url(fontes/bubblegum-sans-regular.otf);
+    font-weight: normal;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ou pode ser encontrado dessa forma: "border: 0;" */
+}
+
+/* Variáveis - quando criadas no root podem ser utilizadas em qualquer parte do site */
+:root {
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #FFF;
+    --cor7: #000;
+
+    --fonte-titulo: 'titulo';
+}
+
+body {
+    background: var(--cor1);
+}
+
+#interface {
+    background: var(--cor6);
+    max-width: 1200px;
+    /* margin: 10px 5px 2px 8px; - superior direita inferior esquerda - ordena em sentido horário*/
+    margin: 0 auto;
+    /* com o ajuste em duas opções, 0 fica para superior e inferior e auto fica para direita e esquerda */
+}
+
+.topo {
+    height: 70px;
+}
+
+.logo img {
+    margin: 10px 20px;
+    position: absolute;
+    /* absolute pode deixar o logo em qualquer lugar do site e posição relative pode ficar só na area do cabeçalho*/
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    width: 400px;
+    left: 950px;
+    top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    /* Para tirar a bolinha do início de cada item do menu */
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    float: left;
+    /* Para alinhar os itens do menu um ao lado do outro */
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: var(--cor5);
+    display: block;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: #2fa866;
+}
+
+.banner_anime {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    margin: 0;
+}
+
+#anime1,
+#anime2 {
+    max-width: 1200px;
+    height: auto;
+}
+
+.banner_anime img {
+    position: absolute;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    /* ease, linear, ease-in, ease-out, aliviar-in-out, cubico-bezier */
+}
+
+#anime1,
+#anime2:hover {
+    opacity: 1;
+}
+
+#anime1:hover,
+#anime2 {
+    opacity: 0;
+}
+
+h1 {
+    font-family: titulo;
+    font-size: 2em;
+    margin: 30px 0px;
+    /* Margem externa - de uma div para outra div */
+    background: #3ddc84;
+    padding: 20px;
+    /* Margem interna - do topo para o rodape da div atual */
+    text-align: center;
+}
+
+form {
+    width: 1000px;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+select {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+legend {
+    font-family: var(--fonte-titulo);
+    color: var(--cor4);
+    font-size: 1.5em;
+}
+
+fieldset {
+    border: 1px solid var(--cor5);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.sexo {
+    width: 250px;
+}
+
+#contato p {
+    padding: 5px;
+}
+
+.usuario {
+    background: url(img/icontato.png) no-repeat 95% 95%;
+}
+
+.endereco {
+    background: url(img/iendereco.png) no-repeat 95% 95%;
+}
+
+.mensagem {
+    background: url(img/imensagem.png) no-repeat 95% 95%;
+}
+
+.pedido {
+    background: url(img/ipgto.png) no-repeat 95% 95%;
+}
+
+.btn {
+    background: var(--cor5);
+    color: var(--cor1);
+    font-size: 1.1em;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 0px 5px 15px 5px;
+}
+
+#rodape {
+    border-top: 2px solid var(--cor5);
+    text-align: center;
+    clear: both;
+}
+
+#rodape p {
+    margin: 10px 0px;
+    font-size: 1.2em;
+    font-family: var(--fonte-titulo);
+}
+
+#rodape a {
+    text-decoration: none;
+}
+
+/* ______________________________ */
+/* Página mídias */
+
+.radio_tv {
+    background: url(img/radio-tv.png) no-repeat;
+    width: 75%;
+    height: 580px;
+    margin: 5px auto;
+}
+
+#filme {
+    width: 455px;
+    height: 350px;
+    left: 79px;
+    display: block;
+    position: relative;
+}
+
+#musica {
+    display: block;
+    position: relative;
+    left: 573px;
+    top: 490px;
+}
+
+/* ______________________________ */
+/* Página fotos */
+
+.galeria1 p {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
+    padding: 5px 15px;
+}
+
+.album_fotos {
+    width: 780px;
+    height: 550px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 50px;
+}
+
+.album_fotos li {
+    border: 3px solid var(--cor3);
+    width: 200px;
+    height: 200px;
+    background: var(--cor6);
+    margin: 10px;
+    float: left;
+    transition: all .4s ease-in;
+}
+
+.galeria {
+    background: rgba(0, 0, 0, 0.5); /* alpha é de transparência */
+    color: var(--cor6);
+    padding: 5px;
+    font-family: var(--fonte-titulo);
+    font-size: 1.2em;
+    line-height: 357px;
+    opacity: 0;
+}
+
+.album_fotos li:hover .galeria {
+    opacity: 1;
+}
+
+.album_fotos li:hover {
+    transform: scale(1.5);
+}
+
+.album_fotos li.fotos01 {
+    background: url(img/galeria1.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 700px 500px;
+}
+
+.album_fotos li.fotos01:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+.album_fotos li.fotos02 {
+    background: url(img/galeria2.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 700px 500px;
+}
+
+.album_fotos li.fotos02:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+.album_fotos li.fotos03 {
+    background: url(img/galeria3.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 700px 500px;
+}
+
+.album_fotos li.fotos03:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+.album_fotos li.fotos04 {
+    background: url(img/galeria4.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 700px 500px;
+}
+
+.album_fotos li.fotos04:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+.album_fotos li.fotos05 {
+    background: url(img/galeria5.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 700px 500px;
+}
+
+.album_fotos li.fotos05:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+.album_fotos li.fotos06 {
+    background: url(img/galeria6.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 700px 500px;
+}
+
+.album_fotos li.fotos06:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}

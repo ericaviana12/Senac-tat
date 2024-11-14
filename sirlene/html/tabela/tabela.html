@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- Define o tipo de documento -->
+<html lang="pt-br"> <!-- Define o idioma -->
+<head> <!-- Seção de cabeçalho do HTML, onde são definidos metadados e links externos. -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a página para se ajustar em diferentes dispositivos -->
+    <meta name="description" content=""> <!-- Metadado de descrição da página -->
+    <meta name="keywords" content=""> <!-- Metadado de palavras-chave da página -->
+    <title>Tabela</title> <!-- Título da página, que aparece na aba do navegador. -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> <!-- Vincular link externo, para o ícone da página (favicon), que aparece na aba do navegador. -->
+    <link rel="stylesheet" href="estilo_tabela.css"> <!-- Vincular link externo, para personalização da página -->
+</head> <!-- Fechamento da seção de cabeçalho. -->
+    
+<body> <!-- Início do corpo da página, onde o conteúdo visual da página é estruturado. -->
+    <table> <!-- Início da tabela para organizar o conteúdo em linhas e colunas. -->
+        <tr> <!-- Linha da tabela -->
+            <td colspan="3"> <!-- Célula de dados da tabela. Colspan mescla colunas da tabela -->
+                <h1>A História do Linux</h1>
+            </td>
+            <td> <!-- Célula de dados da tabela. -->
+                <img src="img/tuxbatman.png" alt="Tux Batman" title="Tux Batman"> <!-- "img src" usado para inserir uma imagem na página. -->
+            </td>
+        </tr>
+        <tr id="menu"> <!-- ID para uso no style.css - Só pode ser usado na mesma tag -->
+            <td>
+            <a href="https://ubuntu.com/" target="_blank"> <!-- "a href" define um link para outra página ou recurso. -->
+                Ubuntu
+            </a>
+            </td>
+            <td>
+                <a href="https://www.opensuse.org/" target="_blank">
+                OpenSUSE
+                </a>
+            </td>
+            <td>
+                <a href="https://www.redhat.com/pt-br" target="_blank">
+                Red Hat
+                </a>
+            </td>
+            <td>
+                <a href="https://www.debian.org/index.pt.html" target="_blank">
+                Debian
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><br></td> <!-- "br" cria uma linha vazia -->
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="4"><img src="img/ubuntu.png" alt="Logo do Ubuntu" title="Ubuntu"></td> <!-- Célula de dados da tabela. Rowspan mescla linhas da tabela -->
+            <td><h2>Ubuntu</h2></td>          
+        </tr>
+        <tr>
+            <td><h2>Red Hat</h2></td>
+        </tr>
+        <tr>
+            <td><h2>OpenSUSE</h2></td>
+        </tr>
+        <tr>
+            <td><h2>Debian</h2></td>
+        </tr>
+        <tr>
+            <td colspan="4"><br></td>
+        </tr>
+        <tr class="rodape"> <!-- Class para uso no style.css - Pode ser usada em tags diferentes -->
+            <td colspan="4">Rodapé</td> <!-- Célula de dados da tabela. Colspan mescla colunas da tabela -->
+        </tr>
+        <tr class="rodape">
+            <td colspan="4">Somente para fins educacionais.</td>
+        </tr>
+    </table> <!-- Fechamento da tabela. -->
+</body> <!-- Fechamento do corpo da página. -->
+</html> <!-- Fechamento da estrutura HTML. -->

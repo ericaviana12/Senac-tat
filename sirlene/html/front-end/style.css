@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* Fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /* Título */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); /* Texto */
+
+/* Variáveis CSS */
+:root {
+    --cor1: #e8e8e8; /* fontes */
+    --cor2: #a1a1a1; /* cartão */
+    --cor3: #434343; /* menu, rodapé, cartão */
+    --cor4: #173261; /* botão */
+    --cor5: #FFF;
+    --cor6: #000;
+
+    --titulo: 'Righteous', 'sans-serif';
+    --texto: 'Poiret One', 'sans-serif';
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ou pode ser encontrado dessa forma: "border: 0;" */
+}
+
+body {
+    background: #929292;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Smartphone portrait (em pé) */
+
+/* Smartphone landscape (deitado) */
+@media (min-width: 576px) {
+    body {
+        background: rgb(185, 166, 130);
+    }
+}
+
+/* Tablet portrait */
+@media (min-width: 768px) {
+    body {
+        background: rgb(130, 185, 159);
+    }
+}
+/* Tablet landscape */
+@media (min-width: 992px) {
+    body {
+        background: rgb(156, 130, 185);
+    }
+}
+
+/* PC */
+@media (min-width: 1200px) {
+    body {
+        background: rgb(130, 163, 185);
+    }
+}

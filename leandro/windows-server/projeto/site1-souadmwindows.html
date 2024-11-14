@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste - Erica Viana</title>
+    <script>
+        function mostrarDataHora() {
+            var dataHora = new Date();
+            var options = { timeZone: 'America/Sao_Paulo', timeZoneName: 'short' };
+            document.getElementById("dataHora").innerHTML = dataHora.toLocaleString('pt-BR', options);
+        }
+
+        // Inicializa os votos se ainda não existirem
+        if (localStorage.getItem('windowsVotes') === null) {
+            localStorage.setItem('windowsVotes', 0);
+        }
+
+        if (localStorage.getItem('linuxVotes') === null) {
+            localStorage.setItem('linuxVotes', 0);
+        }
+
+        // Função para contar votos
+        function contarVotos(event) {
+            event.preventDefault();
+
+            var escolha = document.querySelector('input[name="software"]:checked').value;
+
+            if (escolha === "Windows") {
+                var windowsVotes = parseInt(localStorage.getItem('windowsVotes')) + 1;
+                localStorage.setItem('windowsVotes', windowsVotes);
+            } else if (escolha === "Linux") {
+                var linuxVotes = parseInt(localStorage.getItem('linuxVotes')) + 1;
+                localStorage.setItem('linuxVotes', linuxVotes);
+            }
+
+            exibirResultados();
+        }
+
+        // Função para exibir resultados
+        function exibirResultados() {
+            var windowsVotes = localStorage.getItem('windowsVotes');
+            var linuxVotes = localStorage.getItem('linuxVotes');
+
+            document.getElementById('resultado').innerHTML =
+                "Windows: " + windowsVotes + " votos<br>" +
+                "Linux: " + linuxVotes + " votos";
+        }
+
+        // Exibe os resultados quando a página carrega
+        window.onload = function() {
+            mostrarDataHora();
+            exibirResultados();
+        }
+    </script>
+</head>
+
+<body>
+<!-- Erica Viana - Técnico de informática -->
+<h1>Curso de TI 2024 - Aula Leandro Ramos</h1>
+<br>
+<img src="Vinicius.jpg" alt="Mascote Vinicius" title="Mascote Vinicius" />
+<br>
+<br>
+<a href="https://github.com/ericaviana12"> GitHub Erica Viana</a>
+
+<p id="dataHora"></p> <!-- Exibirá a data e hora de São Paulo aqui -->
+
+<h2>Enquete: Qual software é melhor?</h2>
+<form id="enquete" onsubmit="contarVotos(event)">
+    <input type="radio" id="windows" name="software" value="Windows" required>
+    <label for="windows">Windows</label><br>
+
+    <input type="radio" id="linux" name="software" value="Linux">
+    <label for="linux">Linux</label><br><br>
+
+    <input type="submit" value="Votar">
+</form>
+
+<h3>Resultados:</h3>
+<p id="resultado"></p> <!-- Resultados serão exibidos aqui -->
+
+<ol>
+    <li>Infraestrutura</li>
+    <li>Hardware</li>
+    <li>Windows</li>
+    <li>Linux</li>
+    <li>Desenvolvimento</li>
+    <li>Programação</li>
+</ol>
+</body>
+</html>

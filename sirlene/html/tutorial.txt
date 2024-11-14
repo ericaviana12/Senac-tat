@@ -1,0 +1,120 @@
+HTML não é uma linguagem de programação
+É uma linguagem de marcação de texto
+
+HTML é o arquivo responsável pela marcação de texto do site
+CSS é o arquivo responsável pelo estilo e layout do site
+JavaScript é o arquivo responsável pela interatividade do site
+
+-----
+
+! e aperta [ENTER] - atalho para colocar a estrutura básica do HTML, informando qual será o tipo de arquivo  (no Virtual Studio Code)
+
+Tudo que está entre o sinal < > é uma tag
+
+Nem toda tag tem fechamento
+Exemplo:
+
+<!DOCTYPE html>
+
+
+Outras tem fechamento
+Exemplo: 
+
+<html lang="pt-BR">
+</html>
+
+
+<head> e </head> - para o cabeçalho do arquivo (a parte inteligente do arquivo)
+
+<body> e </body> - para visualização do usuário final
+
+-----
+
+Estrutura tag <html>
+
+<html lang="pt-BR"> - para a linguagem do arquivo (site). Selecionado português brasileiro
+
+-----
+
+Estrutura tag <head>
+
+<meta charset="UTF-8"> - charset é o conjunto de caracteres que o navegador deve usar para interpretar e exibir corretamente o conteúdo da página (UTF-8 inclui caracteres especiais, símbolos e letras de diversos idiomas)
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> - para ajuste da leitura do arquivo (site) em dispositivos diversos
+
+<meta name="description" content=""> - para inclusão da descrição do arquivo (site) no resultado de pesquisas
+
+<meta name="keywords" content=""> - para inclusão de palavras chaves para busca do arquivo (site) no resultado de pesquisas
+
+<title>Document</title> - para inclusão do título do arquivo (site)
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> - para inclusão de links
+    
+    <link>: A tag <link> é usada para estabelecer uma relação entre o documento HTML e um recurso externo. Geralmente, ela serve para incluir arquivos de estilo, ícones, ou fontes externas.
+
+    rel="shortcut icon": O atributo rel define a relação entre o documento e o recurso externo. Aqui, shortcut icon indica que o arquivo referenciado será o ícone do site (favicon). Esse valor (shortcut icon) é usado especificamente para identificar o ícone exibido na aba do navegador e em listas de favoritos.
+
+    href="favicon.ico": O atributo href especifica o caminho para o arquivo do ícone. No exemplo, o arquivo favicon.ico é usado como o ícone do site. Geralmente, esse arquivo está na raiz do site para ser facilmente identificado pelo navegador.
+
+    type="image/x-icon": O atributo type especifica o tipo de conteúdo do arquivo referenciado, neste caso, image/x-icon, que é o formato padrão para favicons. Este atributo ajuda o navegador a entender que o arquivo referenciado é uma imagem no formato ICO, mas ele não é estritamente obrigatório.
+
+<style> - tudo que estiver dentro dessa tag será o CSS (responsável pelo estilo e layout do site)
+/* comentários */ separador para incluir comentários no arquivo dentro da tag <style>
+
+-----
+
+Estrutura tag <body>
+
+<!-- comentários --> separador para incluir comentários no arquivo
+
+<h1> - tag para título e subtítulo (o h1 é para título principal)
+Exemplo: <h1>Olá Mundo!</h1>
+
+<hr> - não tem fechamento (serve para passar uma linha no arquivo tipo o "---" no .md)
+
+<h2> - tag para subtítulo
+Exemplo: <h2>Me livrei da maldição</h2>
+
+<p> - tag para inclusão de parágrafo
+Exemplo: 
+    <p>
+        O "Olá Mundo" ou "Alô Mundo" é um famoso programa de computador que imprime "Olá, Mundo!" (ou "Hello, World!"), usualmente seguido de uma quebra de linha, com algumas variações como inexistência do ponto de exclamação e letras em minúscula, no dispositivo de saída.
+    </p>
+
+<img src="" alt=""> - tag para inclusão de imagens
+    src - o caminho da imagem
+    alt - a descrição da imagem, utilizada para acessibilidade
+Exemplo:
+    <img src="ola_mundo.jpg" alt="Olá Mundo">
+
+-----
+
+Instalar as extensões:
+Live server (ícone roxo)
+Portuguese (Brazil) Language Pack for Visual Studio Code
+
+Deixar aplicado a opção de salvamento automático
+
+ALT + Z - quebra a linha do Virtual Studio Code
+
+ALT + SHIFT + F - alinha o código no Virtual Studio Code
+
+1em - equivale a 16 pixels
+
+Quando uma tag estiver com a escrita em vermelho, significa que é obsoleta
+Exemplo: <center> </center> - tag obsoleta
+
+Não é uma boa prática diminuir a imagem pelo CSS, pois o gasto de internet para ajustar é maior
+
+<br> - Quebra de linha
+
+---
+
+Identificação de itens no HTML:
+
+Classe pode ser usada em tag diferente
+Exemplo: #menu
+ID só pode ser usado na mesma tag
+Exemplo: .rodape
+
+Pelas boas práticas, só é feita a chamada pela identificação de cada um
