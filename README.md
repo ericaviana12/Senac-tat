@@ -8,10 +8,10 @@ Este repositório contém os materiais e exercícios das aulas do curso Técnico
 
 ## Estrutura do Repositório
 
-- [`José`](https://github.com/ericaviana12/Senac-tat/tree/main/Jose): Materiais e exercícios sobre desenvolvimento e lógica de programação, incluindo algoritmos, conceitos básicos de programação e projetos em Node.js.
-- [`Leandro`](https://github.com/ericaviana12/Senac-tat/tree/main/Leandro): Conteúdos relacionados a Hardware, infraestrutura de redes, e configurações de Windows Server, abordando desde a instalação até as configurações de servidor.
-- [`Sirlene`](https://github.com/ericaviana12/Senac-tat/tree/main/Sirlene): Conteúdos e projetos focados em desenvolvimento web, abrangendo HTML, CSS e Photoshop, com exemplos práticos de design e desenvolvimento.
-- [`Vaamonde`](https://github.com/ericaviana12/Senac-tat/tree/main/Vaamonde): Conteúdos sobre Linux e segurança, com foco em Ubuntu Server e o projeto Hack Cisco, abordando também banco de dados e práticas de segurança em servidores.
+- [`José`](https://github.com/ericaviana12/senac-tat/tree/main/jose): Materiais e exercícios sobre desenvolvimento e lógica de programação, incluindo algoritmos, conceitos básicos de programação e projetos em Node.js.
+- [`Leandro`](https://github.com/ericaviana12/senac-tat/tree/main/leandro): Conteúdos relacionados a Hardware, infraestrutura de redes, e configurações de Windows Server, abordando desde a instalação até as configurações de servidor.
+- [`Sirlene`](https://github.com/ericaviana12/senac-tat/tree/main/sirlene): Conteúdos e projetos focados em desenvolvimento web, abrangendo HTML, CSS e Photoshop, com exemplos práticos de design e desenvolvimento.
+- [`Vaamonde`](https://github.com/ericaviana12/senac-tat/tree/main/vaamonde): Conteúdos sobre Linux e segurança, com foco em Ubuntu Server e o projeto Hack Cisco, abordando também banco de dados e práticas de segurança em servidores.
 
 ## Como Contribuir
 
