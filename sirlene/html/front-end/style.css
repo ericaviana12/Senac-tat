@@ -41,6 +41,10 @@ body {
     bottom: 10px;
 }
 
+.flex {
+    display: flex;
+}
+
 /* Smartphone portrait (em pé) */
 
 /* Smartphone landscape (deitado) */
