@@ -31,7 +31,7 @@ body {
 
 /* Layout */
 .container {
-    display: flex;
+    margin: 0 auto;
 }
 
 /* Smartphone portrait (em pé) */
@@ -41,6 +41,9 @@ body {
     body {
         background: rgb(185, 166, 130);
     }
+    .container {
+        max-width: 540px;
+    }
 }
 
 /* Tablet portrait */
@@ -48,11 +51,17 @@ body {
     body {
         background: rgb(130, 185, 159);
     }
+    .container {
+        max-width: 720px;
+    }
 }
 /* Tablet landscape */
 @media (min-width: 992px) {
     body {
         background: rgb(156, 130, 185);
+    }
+    .container {
+        max-width: 960px;
     }
 }
 
@@ -60,5 +69,8 @@ body {
 @media (min-width: 1200px) {
     body {
         background: rgb(130, 163, 185);
+    }
+    .container {
+        max-width: 1140px;
     }
 }
