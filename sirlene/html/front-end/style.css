@@ -32,6 +32,13 @@ body {
 /* Layout */
 .container {
     margin: 0 auto;
+    background: #cecece;
+}
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
 
 /* Smartphone portrait (em pé) */
