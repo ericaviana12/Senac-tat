@@ -72,10 +72,13 @@ label {
 
 nav ul {
     list-style: none;
-    background: var(--cor3);
+    background: var(--cor4);
     height: 100vh;
     position: fixed;
     top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
 }
 
 nav ul li {
@@ -87,6 +90,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--cor1);
     font-family: var(--texto);
+    font-size: 1.3em;
 }
 
 #check:checked ~ ul {
