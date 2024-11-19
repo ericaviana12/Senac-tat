@@ -59,6 +59,40 @@ header {
     height: 60px;
 }
 
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    background: var(--cor3);
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: var(--cor2) 1px solid;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: var(--texto);
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+
 /* Smartphone landscape (deitado) */
 @media (min-width: 576px) {
     body {
