@@ -38,13 +38,16 @@
 /* Layout */
 .container {
     margin: 0 auto;
-    background: #cecece;
 }
 
 #topo {
     position: fixed;
     right: 10px;
     bottom: 10px;
+}
+
+.botao {
+    text-decoration: none;
 }
 
 .flex {
@@ -94,6 +97,30 @@ nav ul li a {
 
 #check:checked~ul {
     right: 0;
+}
+
+/* Destaque */
+
+main {
+    height: 75vh;
+    background: url(img/banner_front.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--cor5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main h1 {
+    font-size: 3em;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin: 20px 0px 50px 0px;
 }
 
 /* Smartphone landscape (deitado) */
