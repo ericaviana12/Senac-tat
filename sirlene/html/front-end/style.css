@@ -31,9 +31,9 @@
     /* ou pode ser encontrado dessa forma: "border: 0;" */
 }
 
-body {
+/* body {
     background: #929292;
-}
+} */
 
 /* Layout */
 .container {
@@ -50,7 +50,6 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    background: #173261;
 }
 
 /* Smartphone portrait (em pé) */
@@ -93,37 +92,45 @@ nav ul li a {
     font-size: 1.3em;
 }
 
-#check:checked ~ ul {
+#check:checked~ul {
     right: 0;
 }
 
 /* Smartphone landscape (deitado) */
 @media (min-width: 576px) {
-    body {
+    /* body {
         background: rgb(185, 166, 130);
-    }
+    } */
 
     .container {
         max-width: 540px;
+    }
+
+    label {
+        right: 60px;
     }
 }
 
 /* Tablet portrait */
 @media (min-width: 768px) {
-    body {
+    /* body {
         background: rgb(130, 185, 159);
-    }
+    } */
 
     .container {
         max-width: 720px;
+    }
+
+    label {
+        right: 35px;
     }
 }
 
 /* Tablet landscape */
 @media (min-width: 992px) {
-    body {
+    /* body {
         background: rgb(156, 130, 185);
-    }
+    } */
 
     .container {
         max-width: 960px;
@@ -132,9 +139,9 @@ nav ul li a {
 
 /* PC */
 @media (min-width: 1200px) {
-    body {
+    /* body {
         background: rgb(130, 163, 185);
-    }
+    } */
 
     .container {
         max-width: 1140px;
@@ -144,8 +151,33 @@ nav ul li a {
     header {
         height: 125px;
     }
+
     .logo img {
         margin-top: 30px;
         margin-left: 30px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background: transparent;
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        float: left;
+        border-bottom: 0;
+    }
+
+    nav ul li a {
+        color: var(--cor6);
+    }
+
+    nav ul li a:hover {
+        color: orangered;
     }
 }
