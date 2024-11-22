@@ -48,6 +48,13 @@
 
 .botao {
     text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.5em;
+    font-weight: 700;
+    background: var(--cor4);
+    border: 1px solid var(--cor1);
+    border-radius: 25px;
+    padding: 10px 40px;
 }
 
 .flex {
