@@ -145,7 +145,8 @@ main h2 {
     }
 
     /* Destaque */
-    main h1, main h2 {
+    main h1,
+    main h2 {
         text-shadow: var(--cor6) 0.5em 0.5em 0.5em;
     }
 }
@@ -163,6 +164,20 @@ main h2 {
     label {
         right: 35px;
     }
+
+    /* Destaque */
+    main {
+        height: 45vh;
+    }
+
+    main h1 {
+        font-size: 5em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+
 }
 
 /* Tablet landscape */
@@ -174,6 +189,13 @@ main h2 {
     .container {
         max-width: 960px;
     }
+
+    /* Destaque */
+    main {
+        height: 70vh;
+        
+    }
+
 }
 
 /* PC */
