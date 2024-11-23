@@ -143,6 +143,11 @@ main h2 {
     label {
         right: 60px;
     }
+
+    /* Destaque */
+    main h1, main h2 {
+        text-shadow: var(--cor6) 0.5em 0.5em 0.5em;
+    }
 }
 
 /* Tablet portrait */
