@@ -135,10 +135,30 @@ main h2 {
     background: url(img/background5.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 50px 0px;
 }
 
 .destaque_sobre {
     display: none;
+}
+
+.texto_sobre {
+    color: var(--cor1);
+    padding: 0px 10px;
+}
+
+.texto_sobre h2 {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+.texto_sobre p {
+    font-size: 1.4em;
+}
+
+.topico_sobre {
+    margin-top: 20px;
 }
 
 /* Smartphone landscape (deitado) */
@@ -252,4 +272,10 @@ main h2 {
     nav ul li a:hover {
         color: orangered;
     }
+
+    /* Sobre */
+    .destaque_sobre {
+        display: inline;
+    }
+
 }
