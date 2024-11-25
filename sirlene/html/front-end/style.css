@@ -278,4 +278,13 @@ main h2 {
         display: inline;
     }
 
+    .destaque_sobre img {
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+
+    #sobre {
+        background-attachment: fixed; /* Efeito parallax */
+    }
+
 }
