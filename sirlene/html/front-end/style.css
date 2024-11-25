@@ -130,6 +130,17 @@ main h2 {
     margin: 20px 0px 50px 0px;
 }
 
+/* Sobre */
+#sobre {
+    background: url(img/background5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.destaque_sobre {
+    display: none;
+}
+
 /* Smartphone landscape (deitado) */
 @media (min-width: 576px) {
     /* body {
