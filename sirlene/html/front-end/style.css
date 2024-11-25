@@ -166,6 +166,10 @@ main h2 {
     margin-top: 20px;
 }
 
+.topico_sobre img {
+    margin-right: 10px;
+}
+
 /* Smartphone landscape (deitado) */
 @media (min-width: 576px) {
     /* body {
@@ -214,6 +218,15 @@ main h2 {
         font-size: 2em;
     }
 
+}
+
+/* Sobre */
+.texto_sobre h2 {
+    font-size: 2.8em;
+}
+
+.texto_sobre p {
+    font-size: 1.6em;
 }
 
 /* Tablet landscape */
