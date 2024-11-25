@@ -229,7 +229,7 @@ main h2 {
     /* Destaque */
     main {
         height: 70vh;
-        
+
     }
 
 }
@@ -289,7 +289,8 @@ main h2 {
     }
 
     #sobre {
-        background-attachment: fixed; /* Efeito parallax */
+        background-attachment: fixed;
+        /* Efeito parallax */
     }
 
 }
