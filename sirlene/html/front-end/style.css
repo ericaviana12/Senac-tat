@@ -67,6 +67,11 @@
     align-items: center;
 }
 
+.flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Smartphone portrait (em pé) */
 /* Cabeçalho */
 header {
@@ -168,6 +173,22 @@ main h2 {
 
 .topico_sobre img {
     margin-right: 10px;
+}
+
+/* One Page */
+
+#onepage {
+    padding: 50px 0px;
+}
+
+#onepage h2 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+#onepage p {
+    font-family: var(--texto);
+    margin-bottom: 25px;
 }
 
 /* Smartphone landscape (deitado) */
