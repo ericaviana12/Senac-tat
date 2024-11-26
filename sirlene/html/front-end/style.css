@@ -178,17 +178,24 @@ main h2 {
 /* One Page */
 
 #onepage {
-    padding: 50px 0px;
+    padding: 50px 10px;
 }
 
 #onepage h2 {
     font-family: sans-serif;
     margin-bottom: 10px;
+    font-size: 2em;
 }
 
 #onepage p {
     font-family: var(--texto);
     margin-bottom: 25px;
+    font-size: 1.4em;
+}
+
+.video iframe {
+    width: 340px;
+    height: 190px;
 }
 
 /* Smartphone landscape (deitado) */
@@ -210,6 +217,12 @@ main h2 {
     main h2 {
         text-shadow: var(--cor6) 0.5em 0.5em 0.5em;
     }
+}
+
+/* One Page */
+.video iframe {
+    width: 560px;
+    height: 315px;
 }
 
 /* Tablet portrait */
@@ -325,6 +338,12 @@ main h2 {
     #sobre {
         background-attachment: fixed;
         /* Efeito parallax */
+    }
+
+    /* One Page */
+    .flex3 {
+        flex-direction: row;
+        align-items: center;
     }
 
 }
